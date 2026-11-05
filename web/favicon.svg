@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Pocketwatch chain / top loop -->
+  <circle cx="32" cy="5" r="4" stroke="#f59e0b" stroke-width="2" fill="none"/>
+  <rect x="30" y="7" width="4" height="3" rx="1" fill="#d97706"/>
+  <!-- Pocketwatch Outer Golden Casing -->
+  <circle cx="32" cy="34" r="22" fill="#d97706"/>
+  <circle cx="32" cy="34" r="20" fill="#f59e0b" stroke="#b45309" stroke-width="1.5"/>
+  <circle cx="32" cy="34" r="17.5" fill="#fefce8" stroke="#78350f" stroke-width="1"/>
+  <!-- Dial Hour Marks -->
+  <line x1="32" y1="19" x2="32" y2="22" stroke="#451a03" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="46" x2="32" y2="49" stroke="#451a03" stroke-width="2" stroke-linecap="round"/>
+  <line x1="17" y1="34" x2="20" y2="34" stroke="#451a03" stroke-width="2" stroke-linecap="round"/>
+  <line x1="44" y1="34" x2="47" y2="34" stroke="#451a03" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="23.5" cy="25.5" r="1" fill="#78350f"/>
+  <circle cx="40.5" cy="25.5" r="1" fill="#78350f"/>
+  <circle cx="23.5" cy="42.5" r="1" fill="#78350f"/>
+  <circle cx="40.5" cy="42.5" r="1" fill="#78350f"/>
+  <!-- Clock Hands -->
+  <circle cx="32" cy="34" r="2" fill="#b91c1c"/>
+  <line x1="32" y1="34" x2="32" y2="23" stroke="#1c1917" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="34" x2="41" y2="34" stroke="#1c1917" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="32" y1="34" x2="26" y2="40" stroke="#dc2626" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Glass Reflection Glare -->
+  <path d="M19 23 A15 15 0 0 1 43 21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.65"/>
+  <!-- Furry Cat Paw Gripping Pocketwatch from Bottom and Sides -->
+  <!-- Cat Arm/Wrist Base -->
+  <path d="M18 64 C18 52, 22 47, 28 47 L36 47 C42 47, 46 52, 46 64 Z" fill="#ea580c"/>
+  <!-- Left Side Clamping Toe -->
+  <path d="M11 37 C9 32, 13 28, 18 29 C21 29.5, 22 34, 20 38 C18 41, 13 40, 11 37 Z" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
+  <ellipse cx="15" cy="33" rx="2.5" ry="3.5" fill="#fecdd3"/>
+  <path d="M16 29 Q17 26 20 27 Q18 30 17 30 Z" fill="#ffffff"/>
+  <!-- Bottom-Left Toe Gripping Front Bezel -->
+  <path d="M19 46 C17 42, 22 38, 26 39 C29 40, 29 45, 26 48 C23 50, 20 49, 19 46 Z" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
+  <ellipse cx="23" cy="43" rx="2.8" ry="3.2" fill="#fecdd3"/>
+  <path d="M25 39 Q27 36 29 38 Q27 41 26 40 Z" fill="#ffffff"/>
+  <!-- Bottom-Right Toe Gripping Front Bezel -->
+  <path d="M38 46 C35 42, 40 38, 44 39 C47 40, 47 45, 44 48 C41 50, 38 49, 38 46 Z" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
+  <ellipse cx="41" cy="43" rx="2.8" ry="3.2" fill="#fecdd3"/>
+  <path d="M39 39 Q37 36 35 38 Q37 41 38 40 Z" fill="#ffffff"/>
+  <!-- Right Side Clamping Toe -->
+  <path d="M53 37 C55 32, 51 28, 46 29 C43 29.5, 42 34, 44 38 C46 41, 51 40, 53 37 Z" fill="#f97316" stroke="#c2410c" stroke-width="1"/>
+  <ellipse cx="49" cy="33" rx="2.5" ry="3.5" fill="#fecdd3"/>
+  <path d="M48 29 Q47 26 44 27 Q46 30 47 30 Z" fill="#ffffff"/>
+  <!-- Central Soft Paw Cushion Pad -->
+  <ellipse cx="32" cy="54" rx="6.5" ry="4.5" fill="#fecdd3" stroke="#f43f5e" stroke-width="0.8"/>
+</svg>

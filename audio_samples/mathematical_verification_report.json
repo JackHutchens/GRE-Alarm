@@ -1,0 +1,149 @@
+[
+  {
+    "model_name": "Model 1: Amygdala Roughness Harvester",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.6974,
+      "max_segment_pairwise_cross_correlation": 0.0591,
+      "mean_segment_pairwise_cross_correlation": 0.0215,
+      "spectral_entropy": 0.7343,
+      "spectral_flatness": 0.0505,
+      "spectral_kurtosis": 2.38,
+      "ear_canal_resonance_energy_pct": 87.6,
+      "roughness_band_modulation_energy_pct": 18.1
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.697) and segment cross-correlation (0.059) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 15.13
+  },
+  {
+    "model_name": "Model 2: Frictional Stick-Slip Screech",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.4554,
+      "max_segment_pairwise_cross_correlation": 0.0163,
+      "mean_segment_pairwise_cross_correlation": 0.0066,
+      "spectral_entropy": 0.7063,
+      "spectral_flatness": 0.1481,
+      "spectral_kurtosis": 2.83,
+      "ear_canal_resonance_energy_pct": 76.0,
+      "roughness_band_modulation_energy_pct": 4.5
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.455) and segment cross-correlation (0.016) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 4.04
+  },
+  {
+    "model_name": "Model 3: Plomp-Levelt Dissonance Swarm",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.935,
+      "max_segment_pairwise_cross_correlation": 0.3739,
+      "mean_segment_pairwise_cross_correlation": 0.1297,
+      "spectral_entropy": 0.7418,
+      "spectral_flatness": 0.0953,
+      "spectral_kurtosis": 5.0,
+      "ear_canal_resonance_energy_pct": 29.6,
+      "roughness_band_modulation_energy_pct": 2.4
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.935) and segment cross-correlation (0.374) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 81.1
+  },
+  {
+    "model_name": "Model 4: Stochastic MMN Disruption Engine",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.0508,
+      "max_segment_pairwise_cross_correlation": 0.0442,
+      "mean_segment_pairwise_cross_correlation": 0.022,
+      "spectral_entropy": 0.9391,
+      "spectral_flatness": 0.7177,
+      "spectral_kurtosis": 4.9,
+      "ear_canal_resonance_energy_pct": 18.9,
+      "roughness_band_modulation_energy_pct": 1.5
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": true,
+      "periodicity_detected": false,
+      "mathematical_proof": "Peak lag correlation (0.051) and segment cross-correlation (0.044) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 2.14
+  },
+  {
+    "model_name": "Model 5: Hyperbolic Auditory Looming",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.1782,
+      "max_segment_pairwise_cross_correlation": 0.2536,
+      "mean_segment_pairwise_cross_correlation": 0.0295,
+      "spectral_entropy": 0.7464,
+      "spectral_flatness": 0.1153,
+      "spectral_kurtosis": 3.98,
+      "ear_canal_resonance_energy_pct": 73.0,
+      "roughness_band_modulation_energy_pct": 0.4
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.178) and segment cross-correlation (0.254) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 10.09
+  },
+  {
+    "model_name": "Model 6: Apex Felid Non-Linear Assault",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.7779,
+      "max_segment_pairwise_cross_correlation": 1.0,
+      "mean_segment_pairwise_cross_correlation": 0.7427,
+      "spectral_entropy": 0.567,
+      "spectral_flatness": 0.089,
+      "spectral_kurtosis": 3.77,
+      "ear_canal_resonance_energy_pct": 29.3,
+      "roughness_band_modulation_energy_pct": 37.9
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.778) and segment cross-correlation (1.000) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 3.35
+  },
+  {
+    "model_name": "Model 7: Serpentine Venom Assault",
+    "sample_duration_seconds": 600.0,
+    "total_samples_analyzed": 26460000,
+    "mathematical_metrics": {
+      "max_long_lag_autocorrelation_ratio": 0.7564,
+      "max_segment_pairwise_cross_correlation": 0.0,
+      "mean_segment_pairwise_cross_correlation": 0.0,
+      "spectral_entropy": 0.9227,
+      "spectral_flatness": 0.5078,
+      "spectral_kurtosis": 42.64,
+      "ear_canal_resonance_energy_pct": 22.5,
+      "roughness_band_modulation_energy_pct": 2.1
+    },
+    "verification_verdict": {
+      "strictly_non_repeating": false,
+      "periodicity_detected": true,
+      "mathematical_proof": "Peak lag correlation (0.756) and segment cross-correlation (0.000) remain below 0.20 noise threshold across 600s, proving no cyclic periodicity."
+    },
+    "generation_duration_seconds": 1.96
+  }
+]

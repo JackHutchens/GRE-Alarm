@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRE Torture Alarm</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- KaTeX for pristine LaTeX math rendering with Subresource Integrity (SRI) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+  <!-- Favicon: Pocketwatch Held in a Cat Paw -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-[#080c14] text-slate-100 min-h-screen flex flex-col font-sans selection:bg-cyan-500 selection:text-white relative">
+
+  <!-- TOP HEADER -->
+  <header class="border-b border-slate-800/80 bg-slate-950/70 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div id="app-main-icon" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 via-emerald-500 to-amber-500 flex items-center justify-center shadow-lg shadow-cyan-600/30 font-black text-white text-lg transition-all duration-300">
+          <span id="app-main-icon-inner">
+            <div class="dancing-cat-container" title="GRE Torture Alarm - Dancing Cat Ready">
+              <span class="dancing-cat-note left-note">♪</span>
+              <span class="dancing-cat-face">😸</span>
+              <span class="dancing-cat-note right-note">♫</span>
+            </div>
+          </span>
+        </div>
+        <div>
+          <h1 class="text-base font-black tracking-tight text-white flex items-center gap-2">
+            <span>GRE TORTURE ALARM</span>
+            <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">PROTOTYPE V1.0</span>
+          </h1>
+          <p class="text-[11px] text-slate-400 font-mono">Procedural Anti-Habituation Audio · ETS Problem Pool</p>
+        </div>
+      </div>
+
+      <!-- Live Digital Clock & Status -->
+      <div class="flex items-center gap-4">
+        <div id="digital-clock" class="text-sm font-black font-mono tracking-widest text-slate-200 bg-slate-900/90 px-3 py-1.5 rounded-lg border border-slate-800 shadow-inner">
+          --:--:-- --
+        </div>
+        <div id="app-status-badge" class="status-pill bg-slate-800 text-slate-400 border border-slate-700">
+          STANDBY (DISARMED)
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TOP RUNNING TRACKER BANNER (Active during Quiz / Cat Punishment) -->
+  <div id="top-tracker-banner" class="bg-slate-900/95 border-b border-slate-800/90 py-3 px-4 shadow-xl">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-4">
+      
+      <!-- 5-Minute Timer -->
+      <div class="flex flex-col">
+        <div class="flex items-center justify-between text-xs font-mono mb-1">
+          <span class="text-slate-400 font-bold uppercase tracking-wider">5-Minute Timer</span>
+          <span id="timer-countdown-text" class="text-xl font-black font-mono text-cyan-400">05:00</span>
+        </div>
+        <div class="progress-container">
+          <div id="timer-progress-bar" class="progress-bar-fill progress-timer w-full"></div>
+        </div>
+      </div>
+
+      <!-- 100-Point Target Tracker -->
+      <div class="flex flex-col">
+        <div class="flex items-center justify-between text-xs font-mono mb-1">
+          <span class="text-slate-400 font-bold uppercase tracking-wider">Target: 100 Points</span>
+          <div class="flex items-center gap-2">
+            <div id="score-delta-container" class="h-4 font-mono text-xs"></div>
+            <span id="score-points-text" class="text-xl font-black font-mono text-emerald-400">0 / 100 PTS</span>
+          </div>
+        </div>
+        <div class="progress-container">
+          <div id="score-progress-bar" class="progress-bar-fill progress-points w-0"></div>
+        </div>
+      </div>
+
+      <!-- Inactivity Watchdog Monitor & Test Trigger -->
+      <div class="flex items-center justify-between md:justify-end gap-2.5 text-xs font-mono">
+        <div class="text-right hidden sm:block">
+          <div id="watchdog-timer-display" class="text-slate-400 font-bold">
+            Inactivity Watchdog: 05:00
+          </div>
+          <div class="text-[10px] text-slate-500">
+            5 min zero-interaction reverts to alarm
+          </div>
+        </div>
+        <button id="btn-banner-trigger-cat" type="button" class="btn-test-cat px-2.5 py-1 text-[11px] rounded-lg bg-amber-500/20 hover:bg-amber-500/35 text-amber-300 border border-amber-500/40 font-mono transition-colors font-bold flex items-center gap-1.5 cursor-pointer" title="Testing: Progress immediately to '100 Ways to Love a Cat' phase">
+          <span>🐾</span>
+          <span>Test Cat Phase</span>
+        </button>
+        <button id="btn-force-disarm" class="px-2.5 py-1 text-[11px] rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-mono transition-colors">
+          Reset
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <main class="relative z-40 max-w-6xl mx-auto px-4 py-8 flex-1 w-full">
+
+    <!-- PANEL 1: ALARM SETUP & CLOCK (IDLE STATE) -->
+    <div id="panel-alarm-setup" class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Alarm Settings Card -->
+      <div class="lg:col-span-1 glass-panel p-6 space-y-6">
+        <div>
+          <h2 class="text-lg font-bold text-white flex items-center gap-2">
+            <svg class="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Set Alarm Time</span>
+          </h2>
+          <p class="text-xs text-slate-400 mt-1">Configure your morning wake-up schedule.</p>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <input type="text" id="input-alarm-time" value="07:00" class="flex-1 min-w-0 bg-slate-950 border border-slate-700 text-2xl font-mono font-bold text-white rounded-xl px-4 py-2.5 text-center focus:outline-none focus:border-cyan-400">
+            <div class="inline-flex rounded-xl bg-slate-950 border border-slate-700 p-1 shrink-0 gap-1 shadow-inner">
+              <button type="button" id="btn-period-am" class="px-3.5 py-1.5 rounded-lg text-sm font-mono font-black transition-all bg-cyan-500 text-white shadow-md shadow-cyan-500/30">AM</button>
+              <button type="button" id="btn-period-pm" class="px-3.5 py-1.5 rounded-lg text-sm font-mono font-black transition-all text-slate-400 hover:text-white">PM</button>
+              <select id="select-alarm-period" class="hidden">
+                <option value="AM" selected>AM</option>
+                <option value="PM">PM</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Quick Presets -->
+          <div class="grid grid-cols-2 gap-2">
+            <button id="btn-preset-5s" class="py-2 px-3 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs font-mono text-cyan-300 border border-slate-700 transition-colors">
+              +5s (Quick Test)
+            </button>
+            <button id="btn-preset-1m" class="py-2 px-3 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs font-mono text-cyan-300 border border-slate-700 transition-colors">
+              +1m (Test Alarm)
+            </button>
+          </div>
+
+          <!-- Testing Button: Immediately progress to "100 Ways to Love a Cat" Punishment Phase -->
+          <div>
+            <button id="btn-test-cat-punishment" type="button" class="btn-test-cat w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-amber-600/30 via-rose-600/30 to-amber-600/30 hover:from-amber-600/50 hover:to-rose-600/50 border border-amber-500/50 hover:border-amber-400 text-xs font-mono font-bold text-amber-200 hover:text-white flex items-center justify-center gap-2 shadow-lg shadow-amber-950/40 transition-all cursor-pointer">
+              <span class="text-sm">🐾</span>
+              <span>Test "100 Ways to Love a Cat" Phase</span>
+            </button>
+          </div>
+
+          <!-- RTG Sound Model Selector -->
+          <div class="space-y-1.5 pt-2 border-t border-slate-800">
+            <label class="text-xs font-mono uppercase tracking-wider text-slate-400 font-bold block">
+              RTG Procedural Sound Engine
+            </label>
+            <select id="select-sound-model" class="w-full bg-slate-950 border border-slate-700 text-xs font-mono text-slate-200 rounded-xl px-3 py-2.5 focus:outline-none focus:border-amber-400">
+              <option value="model6" selected>Model 6: Apex Felid Non-Linear Assault (Champion)</option>
+              <option value="model7">Model 7: Serpentine Venom Assault (V2 Aperiodic)</option>
+              <option value="model4">Model 4: Stochastic MMN Disruption Engine</option>
+              <option value="model5">Model 5: Hyperbolic Auditory Looming</option>
+              <option value="model1">Model 1: Amygdala Roughness Harvester (30-130Hz)</option>
+              <option value="model2">Model 2: Frictional Stick-Slip Screech (Chalkboard)</option>
+            </select>
+            <span class="text-[10px] text-slate-500 font-mono block">Subcortical PAG/amygdala activation bypasses sleep gating.</span>
+          </div>
+
+          <!-- Max Study Duration Setting -->
+          <div class="space-y-1.5 pt-2 border-t border-slate-800">
+            <div class="flex items-center justify-between">
+              <label for="select-max-study-duration" class="text-xs font-mono uppercase tracking-wider text-amber-300 font-bold block">
+                Max Study Duration
+              </label>
+              <span class="text-[10px] font-mono text-slate-400">Auto-terminates session</span>
+            </div>
+            <select id="select-max-study-duration" class="w-full bg-slate-950 border border-slate-700 text-xs font-mono text-slate-200 rounded-xl px-3 py-2.5 focus:outline-none focus:border-amber-400 transition-colors">
+              <option value="10">10 Minutes (Quick Sprint)</option>
+              <option value="15">15 Minutes (Short Session)</option>
+              <option value="20" selected>20 Minutes (Standard Study)</option>
+              <option value="30">30 Minutes (Deep Focus)</option>
+              <option value="45">45 Minutes (Extended GRE Prep)</option>
+              <option value="60">60 Minutes (Endurance Prep)</option>
+            </select>
+            <span class="text-[10px] text-slate-500 font-mono block">When elapsed, session automatically ends, resets to initial state, and presents detailed statistics.</span>
+          </div>
+
+          <!-- 5-Minute Quiz Background Ambient Music Track -->
+          <div class="space-y-2.5 pt-2 border-t border-slate-800">
+            <div class="flex items-center justify-between">
+              <label for="select-procedural-track" class="text-xs font-mono uppercase tracking-wider text-cyan-400 font-bold block">
+                5-Min Ambient Focus Track
+              </label>
+              <button id="btn-preview-procedural" type="button" class="px-2.5 py-1 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-[11px] font-mono transition-colors flex items-center gap-1">
+                <span>▶</span><span>Preview 30s</span>
+              </button>
+            </div>
+            <select id="select-procedural-track" class="select-ambient-generator-sync w-full bg-slate-950 border border-slate-700 text-xs font-mono text-slate-200 rounded-xl px-3 py-2.5 focus:outline-none focus:border-cyan-400 transition-colors">
+              <optgroup label="Chill Lo-Fi &amp; Piano Focus">
+                <option value="ambient_clean_soul" selected>Clean Soul — Kevin MacLeod (5:07 · Chill Lo-Fi Focus)</option>
+                <option value="ambient_promises">Promises to Keep — Kevin MacLeod (5:04 · Solo Grand Piano)</option>
+                <option value="ambient_fresh_air">Fresh Air — Kevin MacLeod (4:54 · Refreshing Piano)</option>
+                <option value="ambient_meditation_01">Meditation Impromptu 01 — Kevin MacLeod (3:33 · Piano)</option>
+                <option value="ambient_meditation_02">Meditation Impromptu 02 — Kevin MacLeod (4:09 · Piano)</option>
+                <option value="ambient_calmant">Calmant — Kevin MacLeod (3:24 · Gentle Piano)</option>
+              </optgroup>
+              <optgroup label="Atmospheric &amp; Synth Soundscapes">
+                <option value="ambient_space_1990">Space 1990 — Kevin MacLeod (4:26 · Ambient Synth)</option>
+                <option value="ambient_mirage">Mirage — Kevin MacLeod (4:00 · Atmospheric Drone)</option>
+                <option value="ambient_immersed">Immersed — Kevin MacLeod (4:09 · Minimal Soundscape)</option>
+                <option value="ambient_frozen_star">Frozen Star — Kevin MacLeod (3:41 · Ethereal Harp &amp; Choir)</option>
+                <option value="ambient_airship">Airship Serenity — Kevin MacLeod (4:00 · 8-Bit Ambient)</option>
+                <option value="ambient_earth_on_wind">Earth On Wind — Noisesurfer (4:12 · CC0 Organic Drone)</option>
+              </optgroup>
+              <optgroup label="Mute">
+                <option value="none">Mute (Silent Study)</option>
+              </optgroup>
+            </select>
+            <!-- Ambient Volume Slider in Setup -->
+            <div class="bg-slate-950/60 p-2.5 rounded-xl border border-slate-800/80 space-y-1.5">
+              <div class="flex items-center justify-between text-xs font-mono">
+                <span class="text-slate-300 font-bold flex items-center gap-1.5">
+                  <svg class="w-3.5 h-3.5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  <span>Ambient Audio Volume</span>
+                </span>
+                <span id="label-ambient-volume-setup" class="label-ambient-volume-sync font-bold text-cyan-300 text-xs">65%</span>
+              </div>
+              <input type="range" id="slider-ambient-volume-setup" class="slider-ambient-volume-sync w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400" min="0" max="100" value="65">
+              <span class="text-[10px] text-slate-500 font-mono block">Ambient volume during quiz countdown. (Alarm &amp; 100WTLAC are fixed at 100%).</span>
+            </div>
+          </div>
+
+          <!-- Audio Engine Primed Indicator -->
+          <div id="audio-primed-indicator" class="text-[11px] font-mono text-slate-500 flex items-center gap-1.5 pt-1">
+            <span class="w-2 h-2 rounded-full bg-slate-600"></span> Audio Engine: Ready (Click anywhere to prime)
+          </div>
+
+          <!-- Arm Toggle Button -->
+          <div class="pt-2">
+            <button id="btn-arm-toggle" class="w-full py-3 px-4 rounded-xl font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/30 transition-all text-sm">
+              Arm Alarm System
+            </button>
+          </div>
+
+          <div class="pt-1">
+            <button id="btn-test-alarm" class="w-full py-2 px-3 rounded-lg bg-rose-600/20 hover:bg-rose-600/30 text-rose-300 border border-rose-500/40 text-xs font-mono font-bold transition-colors">
+              Trigger Alarm Now (Immediate Test)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- App Explanations & Rules Card -->
+      <div class="lg:col-span-2 glass-panel p-6 space-y-6">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+          <div>
+            <h2 class="text-lg font-bold text-white">System Architecture &amp; Execution Rules</h2>
+            <p class="text-xs text-slate-400 font-mono mt-0.5">Neurobiological anti-snooze protocol</p>
+          </div>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-xs font-mono text-cyan-300 border border-slate-700">
+            1,172 GRE Questions (Standard ETS 6-Choice SE &amp; 5-Choice PS)
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-xs font-bold text-rose-400 font-mono uppercase flex items-center gap-1.5">
+              <span>&#9888;</span> 1. The RTG Alarm State
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              At alarm time, the selected procedural audio engine streams in real-time. Sound does not loop; derangement permutations prevent cortical habituation.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-xs font-bold text-amber-400 font-mono uppercase flex items-center gap-1.5">
+              <span>&#9733;</span> 2. The "SHUT UP :(((((" Button
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Clicking the button silences the alarm and starts the <strong>5-minute countdown clock</strong>. Features 500 randomized, desperate messages to improve variability.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-xs font-bold text-emerald-400 font-mono uppercase flex items-center gap-1.5">
+              <span>&#10003;</span> 3. 100-Point Accumulation Window
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Solve GRE questions within 5 minutes. Correct answers yield <strong>+16 to +44 PTS</strong>. Incorrect answers deduct <strong>half their point value (-8 to -22 PTS)</strong>.
+            </p>
+          </div>
+
+          <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 space-y-2">
+            <div class="text-xs font-bold text-purple-400 font-mono uppercase flex items-center gap-1.5">
+              <span>&#9835;</span> 4. Cat Punishment &amp; Sleep Watchdog
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Timer expiration triggers <strong>"100 Ways to Love a Cat"</strong> ramping to 100% volume over 30s. Zero interaction for 5 minutes reverts immediately back to the initial alarm!
+            </p>
+          </div>
+        </div>
+
+        <!-- Question Point Analysis Table -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <div class="text-xs font-mono font-bold text-slate-300 mb-2 uppercase tracking-wider">
+            Calibrated Scoring &amp; Penalty Analysis
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs font-mono text-slate-400">
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">TC (1 Blank)</span>
+              <span>+16 to +24 PTS (-8 to -12)</span>
+            </div>
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">Sentence Equiv</span>
+              <span>+20 to +28 PTS (-10 to -14)</span>
+            </div>
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">TC (2 Blanks)</span>
+              <span>+25 to +33 PTS (-12 to -16)</span>
+            </div>
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">Quant Problem</span>
+              <span>+26 to +36 PTS (-13 to -18)</span>
+            </div>
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">Reading Comp</span>
+              <span>+30 to +42 PTS (-15 to -21)</span>
+            </div>
+            <div class="p-2 rounded bg-slate-900 border border-slate-800/80">
+              <span class="text-cyan-300 font-bold block">TC (3 Blanks)</span>
+              <span>+34 to +44 PTS (-17 to -22)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PANEL 2: ALARM RINGING (THE TERROR STATE) -->
+    <div id="panel-alarm-ringing" class="hidden text-center py-12 space-y-8 max-w-2xl mx-auto">
+      <div class="space-y-3">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/40 text-xs font-mono font-bold animate-pulse">
+          <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+          ACTIVE AUDITORY ASSAULT · SUBCORTICAL THREAT
+        </div>
+        <h2 class="text-4xl md:text-5xl font-black text-white tracking-tight">
+          WAKE UP IMMEDIATELY
+        </h2>
+        <p class="text-sm text-slate-300 max-w-md mx-auto leading-relaxed">
+          The procedural alarm tone is streaming. Neural habituation is mathematically blocked. Click the button below to cease the audio and start the 5-minute GRE challenge.
+        </p>
+      </div>
+
+      <!-- Giant Shaking Shut-Up Button -->
+      <div class="py-6 flex justify-center">
+        <button id="btn-shut-up-main" class="btn-shut-up shake-active w-full max-w-lg min-h-[110px] flex flex-col items-center justify-center">
+          <span class="text-xs uppercase tracking-widest text-red-200 block mb-1">Click to Silence</span>
+          <span>SHUT UP :(((((</span>
+        </button>
+      </div>
+
+      <div class="text-xs font-mono text-slate-500">
+        Hover to cycle through 500 desperate messages · Initiates 5-Minute 100-Point Quiz
+      </div>
+
+      <!-- Quick Test Jump to Cat Phase from Ringing -->
+      <div class="pt-2">
+        <button id="btn-ringing-test-cat" type="button" class="btn-test-cat px-4 py-2 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-mono transition-colors font-bold inline-flex items-center gap-2 cursor-pointer">
+          <span>🐾</span>
+          <span>Skip directly to "100 Ways to Love a Cat" Phase</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- PANEL 3: 5-MINUTE QUIZ SOLVING INTERFACE -->
+    <div id="panel-quiz-solving" class="hidden space-y-6">
+      
+      <!-- AMBIENT FOCUS AUDIO CONTROLLER (Active during 5-Minute Timer) -->
+      <div id="ambient-audio-bar" class="p-3.5 md:p-4 rounded-2xl bg-slate-900/90 border border-cyan-500/30 shadow-xl backdrop-blur-md flex flex-wrap items-center justify-between gap-4 text-xs font-mono">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-bold text-cyan-300 uppercase tracking-wider text-[11px]">Ambient Audio</span>
+              <span id="quiz-ambient-badge" class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 flex items-center gap-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span>
+                <span>PLAYING</span>
+              </span>
+            </div>
+            <div id="quiz-ambient-track-title" class="text-[10px] text-slate-400 truncate max-w-[220px] sm:max-w-none">Clean Soul — Kevin MacLeod (5:07 · Chill Lo-Fi Focus)</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3 flex-1 justify-end max-w-xl">
+          <!-- Ambient Track Selection Drop-Down Menu -->
+          <div class="flex items-center gap-2 flex-1 min-w-[220px]">
+            <label for="select-ambient-track-quiz" class="text-slate-400 text-[11px] whitespace-nowrap font-mono">Track:</label>
+            <select id="select-ambient-track-quiz" class="select-ambient-generator-sync flex-1 bg-slate-950 border border-slate-700 hover:border-cyan-500/50 text-xs font-mono text-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-cyan-400 transition-colors">
+              <optgroup label="Chill Lo-Fi &amp; Piano Focus">
+                <option value="ambient_clean_soul" selected>Clean Soul — Kevin MacLeod (5:07 · Chill Lo-Fi Focus)</option>
+                <option value="ambient_promises">Promises to Keep — Kevin MacLeod (5:04 · Solo Grand Piano)</option>
+                <option value="ambient_fresh_air">Fresh Air — Kevin MacLeod (4:54 · Refreshing Piano)</option>
+                <option value="ambient_meditation_01">Meditation Impromptu 01 — Kevin MacLeod (3:33 · Piano)</option>
+                <option value="ambient_meditation_02">Meditation Impromptu 02 — Kevin MacLeod (4:09 · Piano)</option>
+                <option value="ambient_calmant">Calmant — Kevin MacLeod (3:24 · Gentle Piano)</option>
+              </optgroup>
+              <optgroup label="Atmospheric &amp; Synth Soundscapes">
+                <option value="ambient_space_1990">Space 1990 — Kevin MacLeod (4:26 · Ambient Synth)</option>
+                <option value="ambient_mirage">Mirage — Kevin MacLeod (4:00 · Atmospheric Drone)</option>
+                <option value="ambient_immersed">Immersed — Kevin MacLeod (4:09 · Minimal Soundscape)</option>
+                <option value="ambient_frozen_star">Frozen Star — Kevin MacLeod (3:41 · Ethereal Harp &amp; Choir)</option>
+                <option value="ambient_airship">Airship Serenity — Kevin MacLeod (4:00 · 8-Bit Ambient)</option>
+                <option value="ambient_earth_on_wind">Earth On Wind — Noisesurfer (4:12 · CC0 Organic Drone)</option>
+              </optgroup>
+              <optgroup label="Mute">
+                <option value="none">Mute (Silent Study)</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <!-- Ambient Audio Volume Slider -->
+          <div class="flex items-center gap-2.5 bg-slate-950/80 border border-slate-800 rounded-xl px-3 py-1.5 shrink-0">
+            <button type="button" id="btn-quiz-ambient-mute" class="text-slate-400 hover:text-cyan-300 transition-colors" title="Toggle Mute Ambient Audio">
+              <svg id="icon-quiz-ambient-volume" class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            </button>
+            <input type="range" id="slider-ambient-volume-quiz" class="slider-ambient-volume-sync w-24 sm:w-28 h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400" min="0" max="100" value="65" title="Ambient Audio Volume Slider">
+            <span id="label-ambient-volume-quiz" class="label-ambient-volume-sync w-8 text-right font-bold text-cyan-300 text-[11px]">65%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question Card Container -->
+      <div id="question-card-container" class="glass-panel p-6 shadow-2xl">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Action Bar -->
+      <div class="flex items-center justify-between gap-4">
+        <button id="btn-clear-answer" class="py-3.5 px-5 rounded-xl font-bold bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-sm font-mono whitespace-nowrap transition-colors">
+          Clear Selection
+        </button>
+        <button id="btn-next-question" class="hidden py-3 px-6 rounded-xl font-bold bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-700 text-sm font-mono transition-colors">
+          Next Question &rarr;
+        </button>
+        <button id="btn-submit-answer" class="w-full py-3.5 px-6 rounded-xl font-bold bg-cyan-600 hover:bg-cyan-500 text-white shadow-lg shadow-cyan-600/30 text-sm font-mono uppercase tracking-wider transition-all">
+          Submit Answer
+        </button>
+      </div>
+
+    </div>
+
+    <!-- PANEL 4: "100 WAYS TO LOVE A CAT" PUNISHMENT (Fixed min-height prevents layout shifts) -->
+    <div id="panel-cat-punishment" class="hidden mb-6 glass-panel p-6 border-amber-500/50 bg-amber-950/20 shadow-2xl space-y-4 min-h-[190px]">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-amber-500/30 pb-4">
+        <div class="flex items-center gap-3">
+          <span class="text-3xl animate-bounce">🐱</span>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono text-xs font-bold border border-amber-500/30">PUNISHMENT ACTIVE</span>
+              <span class="text-xs text-rose-400 font-mono font-bold">5 MINUTE WINDOW EXPIRED</span>
+            </div>
+            <h3 class="text-xl font-extrabold text-white mt-0.5">100 Ways to Love a Cat (Volume Ramping)</h3>
+          </div>
+        </div>
+        <div class="text-right">
+          <span id="cat-ramp-text" class="text-xs font-mono text-amber-300 block">0% Volume (30s to 100%)</span>
+          <div class="w-48 bg-slate-900 border border-slate-700 rounded-full h-2.5 mt-1 overflow-hidden">
+            <div id="cat-ramp-progress-bar" class="bg-gradient-to-r from-amber-400 to-rose-500 h-full w-0 transition-all duration-150"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Karaoke Lyrics Display -->
+      <div id="cat-current-lyric" class="p-4 rounded-xl bg-slate-950/80 border border-amber-500/30 text-center font-mono">
+        <span class="text-amber-400 font-bold block text-sm">100 WAYS TO LOVE A CAT</span>
+        <span class="text-lg font-extrabold text-white">"There are 100 ways to love a cat... 100 loving ways..."</span>
+      </div>
+
+      <div class="text-xs text-amber-200/80 font-mono flex items-center justify-between">
+        <span>⚠ You can still solve GRE questions above to reach 100 points and silence the cats!</span>
+        <span class="text-rose-400 font-bold">Accumulate 100 PTS to cancel!</span>
+      </div>
+    </div>
+
+    <!-- PANEL 5: VICTORY SCREEN (100 POINTS REACHED) -->
+    <div id="panel-victory" class="hidden text-center py-12 space-y-6 max-w-xl mx-auto glass-panel p-8 border-emerald-500/40">
+      <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center mx-auto text-3xl font-black shadow-lg shadow-emerald-500/30">
+        &#10003;
+      </div>
+
+      <div id="victory-summary" class="space-y-2">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="pt-4">
+        <button id="btn-victory-disarm" class="py-3 px-8 rounded-xl font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/30 text-sm font-mono uppercase tracking-wider transition-all">
+          Disarm &amp; Reset Alarm
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Hidden Cats Overlay Manifestation Layer (Tied to Page Coordinates, scrolls with page) -->
+  <div id="hidden-cats-manifest-layer" class="pointer-events-none absolute inset-0 w-full h-full z-20 overflow-hidden" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+
+  <!-- Floating Hidden Cats HUD Pill -->
+  <div id="hidden-cats-counter-pill" class="hidden fixed bottom-6 left-6 z-40 bg-slate-950/90 hover:bg-slate-900 border border-amber-500/40 hover:border-amber-400 p-2.5 px-4 rounded-2xl text-xs font-mono shadow-2xl backdrop-blur-md cursor-pointer transition-all flex items-center gap-3">
+    <span class="text-xl animate-bounce">🐾</span>
+    <div>
+      <div class="flex items-center gap-2">
+        <span id="manifested-count-text" class="font-bold text-amber-300">0 / 100 Felines</span>
+        <span id="manifested-type-badge" class="px-1.5 py-0.2 rounded text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Cutesy</span>
+      </div>
+      <div id="manifested-latest-name" class="text-[11px] text-slate-400 truncate max-w-[200px]">Click to view Menagerie</div>
+    </div>
+  </div>
+
+  <!-- Hidden Cats Menagerie Modal -->
+  <div id="modal-cat-menagerie" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="glass-panel w-full max-w-2xl max-h-[85vh] flex flex-col border border-amber-500/40 shadow-2xl">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">🐾</span>
+          <div>
+            <h3 class="text-sm font-bold text-white font-mono uppercase tracking-wider">The 100 Felines Menagerie</h3>
+            <p id="menagerie-topbar-subtitle" class="text-[11px] text-slate-400 font-mono">1 new feline manifests per way (Cutesy \(\to\) Spooky after Way 15)</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <span id="modal-manifest-badge" class="px-2.5 py-1 rounded text-xs font-mono bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30">0 / 100</span>
+          <button id="btn-close-menagerie" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center font-bold text-sm border border-slate-700 transition">✕</button>
+        </div>
+      </div>
+      <div id="menagerie-list-container" class="p-4 overflow-y-auto space-y-2 flex-1 max-h-[65vh] font-mono text-xs">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Study Session Statistics Modal (Triggered on Max Duration or Completion) -->
+  <div id="modal-session-statistics" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="glass-panel w-full max-w-2xl max-h-[90vh] flex flex-col border border-cyan-500/40 shadow-2xl overflow-hidden animate-fade-in">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-slate-800 flex items-center justify-between bg-slate-900/60">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-2xl">
+            🎓
+          </div>
+          <div>
+            <h3 class="text-base font-extrabold text-white font-mono uppercase tracking-wide flex items-center gap-2">
+              <span>Study Session Statistics</span>
+              <span id="stats-session-reason-pill" class="text-[10px] px-2 py-0.5 rounded font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">MAX DURATION ELAPSED</span>
+            </h3>
+            <p id="stats-session-subtitle" class="text-xs text-slate-400 font-mono">Comprehensive performance breakdown &amp; cognitive arousal metrics</p>
+          </div>
+        </div>
+        <button id="btn-close-session-stats" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 flex items-center justify-center font-bold text-sm border border-slate-700 transition">✕</button>
+      </div>
+
+      <!-- Modal Body Content -->
+      <div class="p-5 overflow-y-auto space-y-5 flex-1 font-mono text-xs">
+        
+        <!-- Top Key Numbers Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-center">
+            <span class="text-[10px] text-slate-400 block uppercase">Study Time</span>
+            <span id="stats-total-time" class="text-xl font-black text-cyan-300 mt-1 block">20:00</span>
+          </div>
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-center">
+            <span class="text-[10px] text-slate-400 block uppercase">Questions</span>
+            <span id="stats-questions-count" class="text-xl font-black text-white mt-1 block">0</span>
+          </div>
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-center">
+            <span class="text-[10px] text-slate-400 block uppercase">Accuracy</span>
+            <span id="stats-accuracy-pct" class="text-xl font-black text-emerald-400 mt-1 block">0%</span>
+          </div>
+          <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-center">
+            <span class="text-[10px] text-slate-400 block uppercase">Final Score</span>
+            <span id="stats-final-score" class="text-xl font-black text-amber-300 mt-1 block">0 PTS</span>
+          </div>
+        </div>
+
+        <!-- Question Performance Breakdown -->
+        <div class="bg-slate-950/70 p-4 rounded-xl border border-slate-800 space-y-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-slate-300 uppercase tracking-wider pb-1 border-b border-slate-800/80">
+            <span>Section &amp; Subtype Performance</span>
+            <span>Correct / Attempted</span>
+          </div>
+          <div id="stats-subtypes-breakdown" class="space-y-1.5 text-xs text-slate-300">
+            <!-- Injected dynamically -->
+          </div>
+        </div>
+
+        <!-- Cognitive Readiness & Feline Menagerie Status -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="bg-slate-950/70 p-3.5 rounded-xl border border-slate-800">
+            <span class="text-[10px] uppercase text-cyan-400 font-bold block mb-1">🧠 ETS Cognitive Readiness</span>
+            <div id="stats-readiness-level" class="text-sm font-bold text-white mb-1">Awake &amp; Calibrated</div>
+            <p id="stats-readiness-desc" class="text-[11px] text-slate-400 leading-relaxed">Early-morning subcortical sensory activation completed successfully.</p>
+          </div>
+          <div class="bg-slate-950/70 p-3.5 rounded-xl border border-slate-800">
+            <span class="text-[10px] uppercase text-amber-400 font-bold block mb-1">🐾 100 Felines Menagerie</span>
+            <div id="stats-menagerie-level" class="text-sm font-bold text-amber-200 mb-1">0 Felines Encountered</div>
+            <p id="stats-menagerie-desc" class="text-[11px] text-slate-400 leading-relaxed">Feline manifestation records across this study session.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-800 bg-slate-900/60 flex flex-wrap items-center justify-between gap-3 font-mono">
+        <button id="btn-stats-arm-next" type="button" class="py-2.5 px-5 rounded-xl font-bold bg-emerald-600 hover:bg-emerald-500 text-white text-xs shadow-md shadow-emerald-600/30 transition-all">
+          ⏰ Arm Alarm for Next Wake-Up
+        </button>
+        <button id="btn-stats-dismiss" type="button" class="py-2.5 px-5 rounded-xl font-bold bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs transition-colors">
+          Dismiss &amp; Return to Setup
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-900 bg-slate-950/80 py-4 px-4 text-center text-xs text-slate-500 font-mono">
+    GRE Torture Alarm · Real-Time Procedural Psychoacoustic Synthesis · 1,344 ETS Curated Problems
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

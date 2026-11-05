@@ -1,0 +1,5137 @@
+[
+  {
+    "way_number": 1,
+    "verse_index": 1,
+    "way_word": "one",
+    "action": "keep a tidy house for them",
+    "display_lyric": "Way 1: keep a tidy house for them",
+    "full_line": "Way one: keep a tidy house for them",
+    "start_seconds": 4.0,
+    "action_start_seconds": 11.68,
+    "action_end_seconds": 17.5,
+    "end_seconds": 19.36,
+    "words": [
+      {
+        "word": "Way",
+        "start": 11.68,
+        "end": 12.31
+      },
+      {
+        "word": "1:",
+        "start": 12.31,
+        "end": 13.08
+      },
+      {
+        "word": "keep",
+        "start": 13.08,
+        "end": 13.88
+      },
+      {
+        "word": "a",
+        "start": 13.88,
+        "end": 14.29
+      },
+      {
+        "word": "tidy",
+        "start": 14.29,
+        "end": 15.09
+      },
+      {
+        "word": "house",
+        "start": 15.09,
+        "end": 16.09
+      },
+      {
+        "word": "for",
+        "start": 16.09,
+        "end": 16.7
+      },
+      {
+        "word": "them",
+        "start": 16.7,
+        "end": 17.5
+      }
+    ]
+  },
+  {
+    "way_number": 2,
+    "verse_index": 1,
+    "way_word": "two",
+    "action": "Be sure to clip their claws",
+    "display_lyric": "Way 2: Be sure to clip their claws",
+    "full_line": "Way two: Be sure to clip their claws",
+    "start_seconds": 19.36,
+    "action_start_seconds": 27.04,
+    "action_end_seconds": 32.86,
+    "end_seconds": 34.72,
+    "words": [
+      {
+        "word": "Way",
+        "start": 27.04,
+        "end": 27.67
+      },
+      {
+        "word": "2:",
+        "start": 27.67,
+        "end": 28.44
+      },
+      {
+        "word": "Be",
+        "start": 28.44,
+        "end": 28.84
+      },
+      {
+        "word": "sure",
+        "start": 28.84,
+        "end": 29.65
+      },
+      {
+        "word": "to",
+        "start": 29.65,
+        "end": 30.05
+      },
+      {
+        "word": "clip",
+        "start": 30.05,
+        "end": 30.85
+      },
+      {
+        "word": "their",
+        "start": 30.85,
+        "end": 31.86
+      },
+      {
+        "word": "claws",
+        "start": 31.86,
+        "end": 32.86
+      }
+    ]
+  },
+  {
+    "way_number": 3,
+    "verse_index": 1,
+    "way_word": "three",
+    "action": "scoop their box daily",
+    "display_lyric": "Way 3: scoop their box daily",
+    "full_line": "Way three: scoop their box daily",
+    "start_seconds": 34.72,
+    "action_start_seconds": 42.4,
+    "action_end_seconds": 48.22,
+    "end_seconds": 50.08,
+    "words": [
+      {
+        "word": "Way",
+        "start": 42.4,
+        "end": 43.03
+      },
+      {
+        "word": "3:",
+        "start": 43.03,
+        "end": 43.8
+      },
+      {
+        "word": "scoop",
+        "start": 43.8,
+        "end": 45.03
+      },
+      {
+        "word": "their",
+        "start": 45.03,
+        "end": 46.26
+      },
+      {
+        "word": "box",
+        "start": 46.26,
+        "end": 46.99
+      },
+      {
+        "word": "daily",
+        "start": 46.99,
+        "end": 48.22
+      }
+    ]
+  },
+  {
+    "way_number": 4,
+    "verse_index": 1,
+    "way_word": "four",
+    "action": "brush them with a hairbrush",
+    "display_lyric": "Way 4: brush them with a hairbrush",
+    "full_line": "Way four: brush them with a hairbrush",
+    "start_seconds": 50.08,
+    "action_start_seconds": 57.76,
+    "action_end_seconds": 63.58,
+    "end_seconds": 80.0,
+    "words": [
+      {
+        "word": "Way",
+        "start": 57.76,
+        "end": 58.39
+      },
+      {
+        "word": "4:",
+        "start": 58.39,
+        "end": 59.16
+      },
+      {
+        "word": "brush",
+        "start": 59.16,
+        "end": 60.08
+      },
+      {
+        "word": "them",
+        "start": 60.08,
+        "end": 60.82
+      },
+      {
+        "word": "with",
+        "start": 60.82,
+        "end": 61.55
+      },
+      {
+        "word": "a",
+        "start": 61.55,
+        "end": 61.92
+      },
+      {
+        "word": "hairbrush",
+        "start": 61.92,
+        "end": 63.58
+      }
+    ]
+  },
+  {
+    "way_number": 5,
+    "verse_index": 2,
+    "way_word": "five",
+    "action": "don't squeeze their paws hard",
+    "display_lyric": "Way 5: don't squeeze their paws hard",
+    "full_line": "Way five: don't squeeze their paws hard",
+    "start_seconds": 80.0,
+    "action_start_seconds": 87.68,
+    "action_end_seconds": 93.5,
+    "end_seconds": 95.36,
+    "words": [
+      {
+        "word": "Way",
+        "start": 87.68,
+        "end": 88.31
+      },
+      {
+        "word": "5:",
+        "start": 88.31,
+        "end": 89.08
+      },
+      {
+        "word": "don't",
+        "start": 89.08,
+        "end": 89.96
+      },
+      {
+        "word": "squeeze",
+        "start": 89.96,
+        "end": 91.2
+      },
+      {
+        "word": "their",
+        "start": 91.2,
+        "end": 92.09
+      },
+      {
+        "word": "paws",
+        "start": 92.09,
+        "end": 92.79
+      },
+      {
+        "word": "hard",
+        "start": 92.79,
+        "end": 93.5
+      }
+    ]
+  },
+  {
+    "way_number": 6,
+    "verse_index": 2,
+    "way_word": "six",
+    "action": "give them some fresh water",
+    "display_lyric": "Way 6: give them some fresh water",
+    "full_line": "Way six: give them some fresh water",
+    "start_seconds": 95.36,
+    "action_start_seconds": 103.04,
+    "action_end_seconds": 108.86,
+    "end_seconds": 110.72,
+    "words": [
+      {
+        "word": "Way",
+        "start": 103.04,
+        "end": 103.67
+      },
+      {
+        "word": "6:",
+        "start": 103.67,
+        "end": 104.44
+      },
+      {
+        "word": "give",
+        "start": 104.44,
+        "end": 105.24
+      },
+      {
+        "word": "them",
+        "start": 105.24,
+        "end": 106.05
+      },
+      {
+        "word": "some",
+        "start": 106.05,
+        "end": 106.85
+      },
+      {
+        "word": "fresh",
+        "start": 106.85,
+        "end": 107.86
+      },
+      {
+        "word": "water",
+        "start": 107.86,
+        "end": 108.86
+      }
+    ]
+  },
+  {
+    "way_number": 7,
+    "verse_index": 2,
+    "way_word": "seven",
+    "action": "let them have a fish",
+    "display_lyric": "Way 7: let them have a fish",
+    "full_line": "Way seven: let them have a fish",
+    "start_seconds": 110.72,
+    "action_start_seconds": 118.4,
+    "action_end_seconds": 124.22,
+    "end_seconds": 126.08,
+    "words": [
+      {
+        "word": "Way",
+        "start": 118.4,
+        "end": 119.03
+      },
+      {
+        "word": "7:",
+        "start": 119.03,
+        "end": 119.8
+      },
+      {
+        "word": "let",
+        "start": 119.8,
+        "end": 120.58
+      },
+      {
+        "word": "them",
+        "start": 120.58,
+        "end": 121.62
+      },
+      {
+        "word": "have",
+        "start": 121.62,
+        "end": 122.66
+      },
+      {
+        "word": "a",
+        "start": 122.66,
+        "end": 123.18
+      },
+      {
+        "word": "fish",
+        "start": 123.18,
+        "end": 124.22
+      }
+    ]
+  },
+  {
+    "way_number": 8,
+    "verse_index": 2,
+    "way_word": "eight",
+    "action": "buy them a scratching post",
+    "display_lyric": "Way 8: buy them a scratching post",
+    "full_line": "Way eight: buy them a scratching post",
+    "start_seconds": 126.08,
+    "action_start_seconds": 133.76,
+    "action_end_seconds": 139.58,
+    "end_seconds": 156.0,
+    "words": [
+      {
+        "word": "Way",
+        "start": 133.76,
+        "end": 134.39
+      },
+      {
+        "word": "8:",
+        "start": 134.39,
+        "end": 135.16
+      },
+      {
+        "word": "buy",
+        "start": 135.16,
+        "end": 135.74
+      },
+      {
+        "word": "them",
+        "start": 135.74,
+        "end": 136.51
+      },
+      {
+        "word": "a",
+        "start": 136.51,
+        "end": 136.89
+      },
+      {
+        "word": "scratching",
+        "start": 136.89,
+        "end": 138.81
+      },
+      {
+        "word": "post",
+        "start": 138.81,
+        "end": 139.58
+      }
+    ]
+  },
+  {
+    "way_number": 9,
+    "verse_index": 3,
+    "way_word": "nine",
+    "action": "put them in your lap",
+    "display_lyric": "Way 9: put them in your lap",
+    "full_line": "Way nine: put them in your lap",
+    "start_seconds": 156.0,
+    "action_start_seconds": 163.68,
+    "action_end_seconds": 169.5,
+    "end_seconds": 171.36,
+    "words": [
+      {
+        "word": "Way",
+        "start": 163.68,
+        "end": 164.31
+      },
+      {
+        "word": "9:",
+        "start": 164.31,
+        "end": 165.08
+      },
+      {
+        "word": "put",
+        "start": 165.08,
+        "end": 165.91
+      },
+      {
+        "word": "them",
+        "start": 165.91,
+        "end": 167.01
+      },
+      {
+        "word": "in",
+        "start": 167.01,
+        "end": 167.57
+      },
+      {
+        "word": "your",
+        "start": 167.57,
+        "end": 168.67
+      },
+      {
+        "word": "lap",
+        "start": 168.67,
+        "end": 169.5
+      }
+    ]
+  },
+  {
+    "way_number": 10,
+    "verse_index": 3,
+    "way_word": "ten",
+    "action": "be quiet when they're sleeping",
+    "display_lyric": "Way 10: be quiet when they're sleeping",
+    "full_line": "Way ten: be quiet when they're sleeping",
+    "start_seconds": 171.36,
+    "action_start_seconds": 179.04,
+    "action_end_seconds": 184.86,
+    "end_seconds": 186.72,
+    "words": [
+      {
+        "word": "Way",
+        "start": 179.04,
+        "end": 179.67
+      },
+      {
+        "word": "10:",
+        "start": 179.67,
+        "end": 180.44
+      },
+      {
+        "word": "be",
+        "start": 180.44,
+        "end": 180.78
+      },
+      {
+        "word": "quiet",
+        "start": 180.78,
+        "end": 181.63
+      },
+      {
+        "word": "when",
+        "start": 181.63,
+        "end": 182.31
+      },
+      {
+        "word": "they're",
+        "start": 182.31,
+        "end": 183.5
+      },
+      {
+        "word": "sleeping",
+        "start": 183.5,
+        "end": 184.86
+      }
+    ]
+  },
+  {
+    "way_number": 11,
+    "verse_index": 3,
+    "way_word": "eleven",
+    "action": "whisper \"I love you\"",
+    "display_lyric": "Way 11: whisper \"I love you\"",
+    "full_line": "Way eleven: whisper \"I love you\"",
+    "start_seconds": 186.72,
+    "action_start_seconds": 194.4,
+    "action_end_seconds": 200.22,
+    "end_seconds": 202.08,
+    "words": [
+      {
+        "word": "Way",
+        "start": 194.4,
+        "end": 195.03
+      },
+      {
+        "word": "11:",
+        "start": 195.03,
+        "end": 195.8
+      },
+      {
+        "word": "whisper",
+        "start": 195.8,
+        "end": 197.62
+      },
+      {
+        "word": "\"I",
+        "start": 197.62,
+        "end": 198.14
+      },
+      {
+        "word": "love",
+        "start": 198.14,
+        "end": 199.18
+      },
+      {
+        "word": "you\"",
+        "start": 199.18,
+        "end": 200.22
+      }
+    ]
+  },
+  {
+    "way_number": 12,
+    "verse_index": 3,
+    "way_word": "twelve",
+    "action": "rub their soft belly",
+    "display_lyric": "Way 12: rub their soft belly",
+    "full_line": "Way twelve: rub their soft belly",
+    "start_seconds": 202.08,
+    "action_start_seconds": 209.76,
+    "action_end_seconds": 215.58,
+    "end_seconds": 235.84,
+    "words": [
+      {
+        "word": "Way",
+        "start": 209.76,
+        "end": 210.39
+      },
+      {
+        "word": "12:",
+        "start": 210.39,
+        "end": 211.16
+      },
+      {
+        "word": "rub",
+        "start": 211.16,
+        "end": 211.94
+      },
+      {
+        "word": "their",
+        "start": 211.94,
+        "end": 213.24
+      },
+      {
+        "word": "soft",
+        "start": 213.24,
+        "end": 214.28
+      },
+      {
+        "word": "belly",
+        "start": 214.28,
+        "end": 215.58
+      }
+    ]
+  },
+  {
+    "way_number": 13,
+    "verse_index": 4,
+    "way_word": "thirteen",
+    "action": "make sure their tail is clean",
+    "display_lyric": "Way 13: make sure their tail is clean",
+    "full_line": "Way thirteen: make sure their tail is clean",
+    "start_seconds": 235.84,
+    "action_start_seconds": 243.52,
+    "action_end_seconds": 249.34,
+    "end_seconds": 251.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 243.52,
+        "end": 244.15
+      },
+      {
+        "word": "13:",
+        "start": 244.15,
+        "end": 244.92
+      },
+      {
+        "word": "make",
+        "start": 244.92,
+        "end": 245.66
+      },
+      {
+        "word": "sure",
+        "start": 245.66,
+        "end": 246.39
+      },
+      {
+        "word": "their",
+        "start": 246.39,
+        "end": 247.31
+      },
+      {
+        "word": "tail",
+        "start": 247.31,
+        "end": 248.05
+      },
+      {
+        "word": "is",
+        "start": 248.05,
+        "end": 248.42
+      },
+      {
+        "word": "clean",
+        "start": 248.42,
+        "end": 249.34
+      }
+    ]
+  },
+  {
+    "way_number": 14,
+    "verse_index": 4,
+    "way_word": "fourteen",
+    "action": "give them a yarn ball",
+    "display_lyric": "Way 14: give them a yarn ball",
+    "full_line": "Way fourteen: give them a yarn ball",
+    "start_seconds": 251.2,
+    "action_start_seconds": 258.88,
+    "action_end_seconds": 264.7,
+    "end_seconds": 266.56,
+    "words": [
+      {
+        "word": "Way",
+        "start": 258.88,
+        "end": 259.51
+      },
+      {
+        "word": "14:",
+        "start": 259.51,
+        "end": 260.28
+      },
+      {
+        "word": "give",
+        "start": 260.28,
+        "end": 261.26
+      },
+      {
+        "word": "them",
+        "start": 261.26,
+        "end": 262.24
+      },
+      {
+        "word": "a",
+        "start": 262.24,
+        "end": 262.74
+      },
+      {
+        "word": "yarn",
+        "start": 262.74,
+        "end": 263.72
+      },
+      {
+        "word": "ball",
+        "start": 263.72,
+        "end": 264.7
+      }
+    ]
+  },
+  {
+    "way_number": 15,
+    "verse_index": 4,
+    "way_word": "fifteen",
+    "action": "make them a nice bed",
+    "display_lyric": "Way 15: make them a nice bed",
+    "full_line": "Way fifteen: make them a nice bed",
+    "start_seconds": 266.56,
+    "action_start_seconds": 274.24,
+    "action_end_seconds": 280.06,
+    "end_seconds": 281.92,
+    "words": [
+      {
+        "word": "Way",
+        "start": 274.24,
+        "end": 274.87
+      },
+      {
+        "word": "15:",
+        "start": 274.87,
+        "end": 275.64
+      },
+      {
+        "word": "make",
+        "start": 275.64,
+        "end": 276.68
+      },
+      {
+        "word": "them",
+        "start": 276.68,
+        "end": 277.72
+      },
+      {
+        "word": "a",
+        "start": 277.72,
+        "end": 278.24
+      },
+      {
+        "word": "nice",
+        "start": 278.24,
+        "end": 279.28
+      },
+      {
+        "word": "bed",
+        "start": 279.28,
+        "end": 280.06
+      }
+    ]
+  },
+  {
+    "way_number": 16,
+    "verse_index": 4,
+    "way_word": "sixteen",
+    "action": "buy him some catnip",
+    "display_lyric": "Way 16: buy him some catnip",
+    "full_line": "Way sixteen: buy him some catnip",
+    "start_seconds": 281.92,
+    "action_start_seconds": 289.6,
+    "action_end_seconds": 295.42,
+    "end_seconds": 313.76,
+    "words": [
+      {
+        "word": "Way",
+        "start": 289.6,
+        "end": 290.23
+      },
+      {
+        "word": "16:",
+        "start": 290.23,
+        "end": 291.0
+      },
+      {
+        "word": "buy",
+        "start": 291.0,
+        "end": 291.83
+      },
+      {
+        "word": "him",
+        "start": 291.83,
+        "end": 292.66
+      },
+      {
+        "word": "some",
+        "start": 292.66,
+        "end": 293.76
+      },
+      {
+        "word": "catnip",
+        "start": 293.76,
+        "end": 295.42
+      }
+    ]
+  },
+  {
+    "way_number": 17,
+    "verse_index": 5,
+    "way_word": "seventeen",
+    "action": "play them some music",
+    "display_lyric": "Way 17: play them some music",
+    "full_line": "Way seventeen: play them some music",
+    "start_seconds": 313.76,
+    "action_start_seconds": 321.44,
+    "action_end_seconds": 327.26,
+    "end_seconds": 329.12,
+    "words": [
+      {
+        "word": "Way",
+        "start": 321.44,
+        "end": 322.07
+      },
+      {
+        "word": "17:",
+        "start": 322.07,
+        "end": 322.84
+      },
+      {
+        "word": "play",
+        "start": 322.84,
+        "end": 323.88
+      },
+      {
+        "word": "them",
+        "start": 323.88,
+        "end": 324.92
+      },
+      {
+        "word": "some",
+        "start": 324.92,
+        "end": 325.96
+      },
+      {
+        "word": "music",
+        "start": 325.96,
+        "end": 327.26
+      }
+    ]
+  },
+  {
+    "way_number": 18,
+    "verse_index": 5,
+    "way_word": "eighteen",
+    "action": "get them a cute collar",
+    "display_lyric": "Way 18: get them a cute collar",
+    "full_line": "Way eighteen: get them a cute collar",
+    "start_seconds": 329.12,
+    "action_start_seconds": 336.8,
+    "action_end_seconds": 342.62,
+    "end_seconds": 344.48,
+    "words": [
+      {
+        "word": "Way",
+        "start": 336.8,
+        "end": 337.43
+      },
+      {
+        "word": "18:",
+        "start": 337.43,
+        "end": 338.2
+      },
+      {
+        "word": "get",
+        "start": 338.2,
+        "end": 338.9
+      },
+      {
+        "word": "them",
+        "start": 338.9,
+        "end": 339.83
+      },
+      {
+        "word": "a",
+        "start": 339.83,
+        "end": 340.29
+      },
+      {
+        "word": "cute",
+        "start": 340.29,
+        "end": 341.22
+      },
+      {
+        "word": "collar",
+        "start": 341.22,
+        "end": 342.62
+      }
+    ]
+  },
+  {
+    "way_number": 19,
+    "verse_index": 5,
+    "way_word": "nineteen",
+    "action": "make sure they're vaccinated",
+    "display_lyric": "Way 19: make sure they're vaccinated",
+    "full_line": "Way nineteen: make sure they're vaccinated",
+    "start_seconds": 344.48,
+    "action_start_seconds": 352.16,
+    "action_end_seconds": 357.98,
+    "end_seconds": 359.84,
+    "words": [
+      {
+        "word": "Way",
+        "start": 352.16,
+        "end": 352.79
+      },
+      {
+        "word": "19:",
+        "start": 352.79,
+        "end": 353.56
+      },
+      {
+        "word": "make",
+        "start": 353.56,
+        "end": 354.27
+      },
+      {
+        "word": "sure",
+        "start": 354.27,
+        "end": 354.97
+      },
+      {
+        "word": "they're",
+        "start": 354.97,
+        "end": 356.21
+      },
+      {
+        "word": "vaccinated",
+        "start": 356.21,
+        "end": 357.98
+      }
+    ]
+  },
+  {
+    "way_number": 20,
+    "verse_index": 5,
+    "way_word": "twenty",
+    "action": "take their picture",
+    "display_lyric": "Way 20: take their picture",
+    "full_line": "Way twenty: take their picture",
+    "start_seconds": 359.84,
+    "action_start_seconds": 367.52,
+    "action_end_seconds": 373.34,
+    "end_seconds": 393.6,
+    "words": [
+      {
+        "word": "Way",
+        "start": 367.52,
+        "end": 368.15
+      },
+      {
+        "word": "20:",
+        "start": 368.15,
+        "end": 368.92
+      },
+      {
+        "word": "take",
+        "start": 368.92,
+        "end": 370.02
+      },
+      {
+        "word": "their",
+        "start": 370.02,
+        "end": 371.41
+      },
+      {
+        "word": "picture",
+        "start": 371.41,
+        "end": 373.34
+      }
+    ]
+  },
+  {
+    "way_number": 21,
+    "verse_index": 6,
+    "way_word": "twenty-one",
+    "action": "brush their teeth",
+    "display_lyric": "Way 21: brush their teeth",
+    "full_line": "Way twenty-one: brush their teeth",
+    "start_seconds": 393.6,
+    "action_start_seconds": 401.28,
+    "action_end_seconds": 407.1,
+    "end_seconds": 408.96,
+    "words": [
+      {
+        "word": "Way",
+        "start": 401.28,
+        "end": 401.91
+      },
+      {
+        "word": "21:",
+        "start": 401.91,
+        "end": 402.68
+      },
+      {
+        "word": "brush",
+        "start": 402.68,
+        "end": 404.15
+      },
+      {
+        "word": "their",
+        "start": 404.15,
+        "end": 405.63
+      },
+      {
+        "word": "teeth",
+        "start": 405.63,
+        "end": 407.1
+      }
+    ]
+  },
+  {
+    "way_number": 22,
+    "verse_index": 6,
+    "way_word": "twenty-two",
+    "action": "let them watch T.V",
+    "display_lyric": "Way 22: let them watch T.V",
+    "full_line": "Way twenty-two: let them watch T.V",
+    "start_seconds": 408.96,
+    "action_start_seconds": 416.64,
+    "action_end_seconds": 422.46,
+    "end_seconds": 424.32,
+    "words": [
+      {
+        "word": "Way",
+        "start": 416.64,
+        "end": 417.27
+      },
+      {
+        "word": "22:",
+        "start": 417.27,
+        "end": 418.04
+      },
+      {
+        "word": "let",
+        "start": 418.04,
+        "end": 418.92
+      },
+      {
+        "word": "them",
+        "start": 418.92,
+        "end": 420.1
+      },
+      {
+        "word": "watch",
+        "start": 420.1,
+        "end": 421.58
+      },
+      {
+        "word": "T.V",
+        "start": 421.58,
+        "end": 422.46
+      }
+    ]
+  },
+  {
+    "way_number": 23,
+    "verse_index": 6,
+    "way_word": "twenty-three",
+    "action": "don't let them be outside by themselves",
+    "display_lyric": "Way 23: don't let them be outside by themselves",
+    "full_line": "Way twenty-three: don't let them be outside by themselves",
+    "start_seconds": 424.32,
+    "action_start_seconds": 432.0,
+    "action_end_seconds": 437.82,
+    "end_seconds": 439.68,
+    "words": [
+      {
+        "word": "Way",
+        "start": 432.0,
+        "end": 432.63
+      },
+      {
+        "word": "23:",
+        "start": 432.63,
+        "end": 433.4
+      },
+      {
+        "word": "don't",
+        "start": 433.4,
+        "end": 434.07
+      },
+      {
+        "word": "let",
+        "start": 434.07,
+        "end": 434.47
+      },
+      {
+        "word": "them",
+        "start": 434.47,
+        "end": 435.01
+      },
+      {
+        "word": "be",
+        "start": 435.01,
+        "end": 435.28
+      },
+      {
+        "word": "outside",
+        "start": 435.28,
+        "end": 436.21
+      },
+      {
+        "word": "by",
+        "start": 436.21,
+        "end": 436.48
+      },
+      {
+        "word": "themselves",
+        "start": 436.48,
+        "end": 437.82
+      }
+    ]
+  },
+  {
+    "way_number": 24,
+    "verse_index": 6,
+    "way_word": "twenty-four",
+    "action": "feed them some cat food",
+    "display_lyric": "Way 24: feed them some cat food",
+    "full_line": "Way twenty-four: feed them some cat food",
+    "start_seconds": 439.68,
+    "action_start_seconds": 447.36,
+    "action_end_seconds": 453.18,
+    "end_seconds": 469.6,
+    "words": [
+      {
+        "word": "Way",
+        "start": 447.36,
+        "end": 447.99
+      },
+      {
+        "word": "24:",
+        "start": 447.99,
+        "end": 448.76
+      },
+      {
+        "word": "feed",
+        "start": 448.76,
+        "end": 449.69
+      },
+      {
+        "word": "them",
+        "start": 449.69,
+        "end": 450.62
+      },
+      {
+        "word": "some",
+        "start": 450.62,
+        "end": 451.55
+      },
+      {
+        "word": "cat",
+        "start": 451.55,
+        "end": 452.25
+      },
+      {
+        "word": "food",
+        "start": 452.25,
+        "end": 453.18
+      }
+    ]
+  },
+  {
+    "way_number": 25,
+    "verse_index": 7,
+    "way_word": "twenty-five",
+    "action": "make sure their eyes are clean",
+    "display_lyric": "Way 25: make sure their eyes are clean",
+    "full_line": "Way twenty-five: make sure their eyes are clean",
+    "start_seconds": 469.6,
+    "action_start_seconds": 477.28,
+    "action_end_seconds": 483.1,
+    "end_seconds": 484.96,
+    "words": [
+      {
+        "word": "Way",
+        "start": 477.28,
+        "end": 477.91
+      },
+      {
+        "word": "25:",
+        "start": 477.91,
+        "end": 478.68
+      },
+      {
+        "word": "make",
+        "start": 478.68,
+        "end": 479.39
+      },
+      {
+        "word": "sure",
+        "start": 479.39,
+        "end": 480.09
+      },
+      {
+        "word": "their",
+        "start": 480.09,
+        "end": 480.98
+      },
+      {
+        "word": "eyes",
+        "start": 480.98,
+        "end": 481.69
+      },
+      {
+        "word": "are",
+        "start": 481.69,
+        "end": 482.22
+      },
+      {
+        "word": "clean",
+        "start": 482.22,
+        "end": 483.1
+      }
+    ]
+  },
+  {
+    "way_number": 26,
+    "verse_index": 7,
+    "way_word": "twenty-six",
+    "action": "put a liner in their box",
+    "display_lyric": "Way 26: put a liner in their box",
+    "full_line": "Way twenty-six: put a liner in their box",
+    "start_seconds": 484.96,
+    "action_start_seconds": 492.64,
+    "action_end_seconds": 498.46,
+    "end_seconds": 500.32,
+    "words": [
+      {
+        "word": "Way",
+        "start": 492.64,
+        "end": 493.27
+      },
+      {
+        "word": "26:",
+        "start": 493.27,
+        "end": 494.04
+      },
+      {
+        "word": "put",
+        "start": 494.04,
+        "end": 494.7
+      },
+      {
+        "word": "a",
+        "start": 494.7,
+        "end": 495.14
+      },
+      {
+        "word": "liner",
+        "start": 495.14,
+        "end": 496.25
+      },
+      {
+        "word": "in",
+        "start": 496.25,
+        "end": 496.69
+      },
+      {
+        "word": "their",
+        "start": 496.69,
+        "end": 497.8
+      },
+      {
+        "word": "box",
+        "start": 497.8,
+        "end": 498.46
+      }
+    ]
+  },
+  {
+    "way_number": 27,
+    "verse_index": 7,
+    "way_word": "twenty-seven",
+    "action": "give them a mat to wipe their feet on",
+    "display_lyric": "Way 27: give them a mat to wipe their feet on",
+    "full_line": "Way twenty-seven: give them a mat to wipe their feet on",
+    "start_seconds": 500.32,
+    "action_start_seconds": 508.0,
+    "action_end_seconds": 513.82,
+    "end_seconds": 515.68,
+    "words": [
+      {
+        "word": "Way",
+        "start": 508.0,
+        "end": 508.63
+      },
+      {
+        "word": "27:",
+        "start": 508.63,
+        "end": 509.4
+      },
+      {
+        "word": "give",
+        "start": 509.4,
+        "end": 509.99
+      },
+      {
+        "word": "them",
+        "start": 509.99,
+        "end": 510.58
+      },
+      {
+        "word": "a",
+        "start": 510.58,
+        "end": 510.87
+      },
+      {
+        "word": "mat",
+        "start": 510.87,
+        "end": 511.32
+      },
+      {
+        "word": "to",
+        "start": 511.32,
+        "end": 511.61
+      },
+      {
+        "word": "wipe",
+        "start": 511.61,
+        "end": 512.2
+      },
+      {
+        "word": "their",
+        "start": 512.2,
+        "end": 512.94
+      },
+      {
+        "word": "feet",
+        "start": 512.94,
+        "end": 513.53
+      },
+      {
+        "word": "on",
+        "start": 513.53,
+        "end": 513.82
+      }
+    ]
+  },
+  {
+    "way_number": 28,
+    "verse_index": 7,
+    "way_word": "twenty-eight",
+    "action": "don't forget them on Christmas",
+    "display_lyric": "Way 28: don't forget them on Christmas",
+    "full_line": "Way twenty-eight: don't forget them on Christmas",
+    "start_seconds": 515.68,
+    "action_start_seconds": 523.36,
+    "action_end_seconds": 529.18,
+    "end_seconds": 547.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 523.36,
+        "end": 523.99
+      },
+      {
+        "word": "28:",
+        "start": 523.99,
+        "end": 524.76
+      },
+      {
+        "word": "don't",
+        "start": 524.76,
+        "end": 525.61
+      },
+      {
+        "word": "forget",
+        "start": 525.61,
+        "end": 526.63
+      },
+      {
+        "word": "them",
+        "start": 526.63,
+        "end": 527.31
+      },
+      {
+        "word": "on",
+        "start": 527.31,
+        "end": 527.65
+      },
+      {
+        "word": "Christmas",
+        "start": 527.65,
+        "end": 529.18
+      }
+    ]
+  },
+  {
+    "way_number": 29,
+    "verse_index": 8,
+    "way_word": "twenty-nine",
+    "action": "make sure they're spayed or neutered",
+    "display_lyric": "Way 29: make sure they're spayed or neutered",
+    "full_line": "Way twenty-nine: make sure they're spayed or neutered",
+    "start_seconds": 547.52,
+    "action_start_seconds": 555.2,
+    "action_end_seconds": 561.02,
+    "end_seconds": 562.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 555.2,
+        "end": 555.83
+      },
+      {
+        "word": "29:",
+        "start": 555.83,
+        "end": 556.6
+      },
+      {
+        "word": "make",
+        "start": 556.6,
+        "end": 557.17
+      },
+      {
+        "word": "sure",
+        "start": 557.17,
+        "end": 557.74
+      },
+      {
+        "word": "they're",
+        "start": 557.74,
+        "end": 558.74
+      },
+      {
+        "word": "spayed",
+        "start": 558.74,
+        "end": 559.59
+      },
+      {
+        "word": "or",
+        "start": 559.59,
+        "end": 559.88
+      },
+      {
+        "word": "neutered",
+        "start": 559.88,
+        "end": 561.02
+      }
+    ]
+  },
+  {
+    "way_number": 30,
+    "verse_index": 8,
+    "way_word": "thirty",
+    "action": "hold them like a baby",
+    "display_lyric": "Way 30: hold them like a baby",
+    "full_line": "Way thirty: hold them like a baby",
+    "start_seconds": 562.88,
+    "action_start_seconds": 570.56,
+    "action_end_seconds": 576.38,
+    "end_seconds": 578.24,
+    "words": [
+      {
+        "word": "Way",
+        "start": 570.56,
+        "end": 571.19
+      },
+      {
+        "word": "30:",
+        "start": 571.19,
+        "end": 571.96
+      },
+      {
+        "word": "hold",
+        "start": 571.96,
+        "end": 572.94
+      },
+      {
+        "word": "them",
+        "start": 572.94,
+        "end": 573.92
+      },
+      {
+        "word": "like",
+        "start": 573.92,
+        "end": 574.91
+      },
+      {
+        "word": "a",
+        "start": 574.91,
+        "end": 575.4
+      },
+      {
+        "word": "baby",
+        "start": 575.4,
+        "end": 576.38
+      }
+    ]
+  },
+  {
+    "way_number": 31,
+    "verse_index": 8,
+    "way_word": "thirty-one",
+    "action": "let them have a towel or blanket",
+    "display_lyric": "Way 31: let them have a towel or blanket",
+    "full_line": "Way thirty-one: let them have a towel or blanket",
+    "start_seconds": 578.24,
+    "action_start_seconds": 585.92,
+    "action_end_seconds": 591.74,
+    "end_seconds": 593.6,
+    "words": [
+      {
+        "word": "Way",
+        "start": 585.92,
+        "end": 586.55
+      },
+      {
+        "word": "31:",
+        "start": 586.55,
+        "end": 587.32
+      },
+      {
+        "word": "let",
+        "start": 587.32,
+        "end": 587.81
+      },
+      {
+        "word": "them",
+        "start": 587.81,
+        "end": 588.47
+      },
+      {
+        "word": "have",
+        "start": 588.47,
+        "end": 589.12
+      },
+      {
+        "word": "a",
+        "start": 589.12,
+        "end": 589.45
+      },
+      {
+        "word": "towel",
+        "start": 589.45,
+        "end": 590.27
+      },
+      {
+        "word": "or",
+        "start": 590.27,
+        "end": 590.59
+      },
+      {
+        "word": "blanket",
+        "start": 590.59,
+        "end": 591.74
+      }
+    ]
+  },
+  {
+    "way_number": 32,
+    "verse_index": 8,
+    "way_word": "thirty-two",
+    "action": "keep your toilet lid down",
+    "display_lyric": "Way 32: keep your toilet lid down",
+    "full_line": "Way thirty-two: keep your toilet lid down",
+    "start_seconds": 593.6,
+    "action_start_seconds": 601.28,
+    "action_end_seconds": 607.1,
+    "end_seconds": 629.28,
+    "words": [
+      {
+        "word": "Way",
+        "start": 601.28,
+        "end": 601.91
+      },
+      {
+        "word": "32:",
+        "start": 601.91,
+        "end": 602.68
+      },
+      {
+        "word": "keep",
+        "start": 602.68,
+        "end": 603.52
+      },
+      {
+        "word": "your",
+        "start": 603.52,
+        "end": 604.36
+      },
+      {
+        "word": "toilet",
+        "start": 604.36,
+        "end": 605.63
+      },
+      {
+        "word": "lid",
+        "start": 605.63,
+        "end": 606.26
+      },
+      {
+        "word": "down",
+        "start": 606.26,
+        "end": 607.1
+      }
+    ]
+  },
+  {
+    "way_number": 33,
+    "verse_index": 9,
+    "way_word": "thirty-three",
+    "action": "don't let them chew on power cords",
+    "display_lyric": "Way 33: don't let them chew on power cords",
+    "full_line": "Way thirty-three: don't let them chew on power cords",
+    "start_seconds": 629.28,
+    "action_start_seconds": 636.96,
+    "action_end_seconds": 642.78,
+    "end_seconds": 644.64,
+    "words": [
+      {
+        "word": "Way",
+        "start": 636.96,
+        "end": 637.59
+      },
+      {
+        "word": "33:",
+        "start": 637.59,
+        "end": 638.36
+      },
+      {
+        "word": "don't",
+        "start": 638.36,
+        "end": 639.15
+      },
+      {
+        "word": "let",
+        "start": 639.15,
+        "end": 639.62
+      },
+      {
+        "word": "them",
+        "start": 639.62,
+        "end": 640.25
+      },
+      {
+        "word": "chew",
+        "start": 640.25,
+        "end": 640.89
+      },
+      {
+        "word": "on",
+        "start": 640.89,
+        "end": 641.2
+      },
+      {
+        "word": "power",
+        "start": 641.2,
+        "end": 641.99
+      },
+      {
+        "word": "cords",
+        "start": 641.99,
+        "end": 642.78
+      }
+    ]
+  },
+  {
+    "way_number": 34,
+    "verse_index": 9,
+    "way_word": "thirty-four",
+    "action": "set them by the window",
+    "display_lyric": "Way 34: set them by the window",
+    "full_line": "Way thirty-four: set them by the window",
+    "start_seconds": 644.64,
+    "action_start_seconds": 652.32,
+    "action_end_seconds": 658.14,
+    "end_seconds": 660.0,
+    "words": [
+      {
+        "word": "Way",
+        "start": 652.32,
+        "end": 652.95
+      },
+      {
+        "word": "34:",
+        "start": 652.95,
+        "end": 653.72
+      },
+      {
+        "word": "set",
+        "start": 653.72,
+        "end": 654.46
+      },
+      {
+        "word": "them",
+        "start": 654.46,
+        "end": 655.44
+      },
+      {
+        "word": "by",
+        "start": 655.44,
+        "end": 655.93
+      },
+      {
+        "word": "the",
+        "start": 655.93,
+        "end": 656.67
+      },
+      {
+        "word": "window",
+        "start": 656.67,
+        "end": 658.14
+      }
+    ]
+  },
+  {
+    "way_number": 35,
+    "verse_index": 9,
+    "way_word": "thirty-five",
+    "action": "cat-proof your home",
+    "display_lyric": "Way 35: cat-proof your home",
+    "full_line": "Way thirty-five: cat-proof your home",
+    "start_seconds": 660.0,
+    "action_start_seconds": 667.68,
+    "action_end_seconds": 673.5,
+    "end_seconds": 675.36,
+    "words": [
+      {
+        "word": "Way",
+        "start": 667.68,
+        "end": 668.31
+      },
+      {
+        "word": "35:",
+        "start": 668.31,
+        "end": 669.08
+      },
+      {
+        "word": "cat-proof",
+        "start": 669.08,
+        "end": 671.42
+      },
+      {
+        "word": "your",
+        "start": 671.42,
+        "end": 672.46
+      },
+      {
+        "word": "home",
+        "start": 672.46,
+        "end": 673.5
+      }
+    ]
+  },
+  {
+    "way_number": 36,
+    "verse_index": 9,
+    "way_word": "thirty-six",
+    "action": "change their litter weekly",
+    "display_lyric": "Way 36: change their litter weekly",
+    "full_line": "Way thirty-six: change their litter weekly",
+    "start_seconds": 675.36,
+    "action_start_seconds": 683.04,
+    "action_end_seconds": 688.86,
+    "end_seconds": 707.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 683.04,
+        "end": 683.67
+      },
+      {
+        "word": "36:",
+        "start": 683.67,
+        "end": 684.44
+      },
+      {
+        "word": "change",
+        "start": 684.44,
+        "end": 685.59
+      },
+      {
+        "word": "their",
+        "start": 685.59,
+        "end": 686.55
+      },
+      {
+        "word": "litter",
+        "start": 686.55,
+        "end": 687.71
+      },
+      {
+        "word": "weekly",
+        "start": 687.71,
+        "end": 688.86
+      }
+    ]
+  },
+  {
+    "way_number": 37,
+    "verse_index": 10,
+    "way_word": "thirty-seven",
+    "action": "praise them lavishly",
+    "display_lyric": "Way 37: praise them lavishly",
+    "full_line": "Way thirty-seven: praise them lavishly",
+    "start_seconds": 707.2,
+    "action_start_seconds": 714.88,
+    "action_end_seconds": 720.7,
+    "end_seconds": 722.56,
+    "words": [
+      {
+        "word": "Way",
+        "start": 714.88,
+        "end": 715.51
+      },
+      {
+        "word": "37:",
+        "start": 715.51,
+        "end": 716.28
+      },
+      {
+        "word": "praise",
+        "start": 716.28,
+        "end": 717.75
+      },
+      {
+        "word": "them",
+        "start": 717.75,
+        "end": 718.74
+      },
+      {
+        "word": "lavishly",
+        "start": 718.74,
+        "end": 720.7
+      }
+    ]
+  },
+  {
+    "way_number": 38,
+    "verse_index": 10,
+    "way_word": "thirty-eight",
+    "action": "never feed him chicken bones",
+    "display_lyric": "Way 38: never feed him chicken bones",
+    "full_line": "Way thirty-eight: never feed him chicken bones",
+    "start_seconds": 722.56,
+    "action_start_seconds": 730.24,
+    "action_end_seconds": 736.06,
+    "end_seconds": 737.92,
+    "words": [
+      {
+        "word": "Way",
+        "start": 730.24,
+        "end": 730.87
+      },
+      {
+        "word": "38:",
+        "start": 730.87,
+        "end": 731.64
+      },
+      {
+        "word": "never",
+        "start": 731.64,
+        "end": 732.56
+      },
+      {
+        "word": "feed",
+        "start": 732.56,
+        "end": 733.3
+      },
+      {
+        "word": "him",
+        "start": 733.3,
+        "end": 733.85
+      },
+      {
+        "word": "chicken",
+        "start": 733.85,
+        "end": 735.14
+      },
+      {
+        "word": "bones",
+        "start": 735.14,
+        "end": 736.06
+      }
+    ]
+  },
+  {
+    "way_number": 39,
+    "verse_index": 10,
+    "way_word": "thirty-nine",
+    "action": "teach them a funny trick",
+    "display_lyric": "Way 39: teach them a funny trick",
+    "full_line": "Way thirty-nine: teach them a funny trick",
+    "start_seconds": 737.92,
+    "action_start_seconds": 745.6,
+    "action_end_seconds": 751.42,
+    "end_seconds": 753.28,
+    "words": [
+      {
+        "word": "Way",
+        "start": 745.6,
+        "end": 746.23
+      },
+      {
+        "word": "39:",
+        "start": 746.23,
+        "end": 747.0
+      },
+      {
+        "word": "teach",
+        "start": 747.0,
+        "end": 748.05
+      },
+      {
+        "word": "them",
+        "start": 748.05,
+        "end": 748.89
+      },
+      {
+        "word": "a",
+        "start": 748.89,
+        "end": 749.32
+      },
+      {
+        "word": "funny",
+        "start": 749.32,
+        "end": 750.37
+      },
+      {
+        "word": "trick",
+        "start": 750.37,
+        "end": 751.42
+      }
+    ]
+  },
+  {
+    "way_number": 40,
+    "verse_index": 10,
+    "way_word": "forty",
+    "action": "give them a toy mouse",
+    "display_lyric": "Way 40: give them a toy mouse",
+    "full_line": "Way forty: give them a toy mouse",
+    "start_seconds": 753.28,
+    "action_start_seconds": 760.96,
+    "action_end_seconds": 766.78,
+    "end_seconds": 783.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 760.96,
+        "end": 761.59
+      },
+      {
+        "word": "40:",
+        "start": 761.59,
+        "end": 762.36
+      },
+      {
+        "word": "give",
+        "start": 762.36,
+        "end": 763.34
+      },
+      {
+        "word": "them",
+        "start": 763.34,
+        "end": 764.32
+      },
+      {
+        "word": "a",
+        "start": 764.32,
+        "end": 764.82
+      },
+      {
+        "word": "toy",
+        "start": 764.82,
+        "end": 765.55
+      },
+      {
+        "word": "mouse",
+        "start": 765.55,
+        "end": 766.78
+      }
+    ]
+  },
+  {
+    "way_number": 41,
+    "verse_index": 11,
+    "way_word": "forty-one",
+    "action": "clean up their hairballs",
+    "display_lyric": "Way 41: clean up their hairballs",
+    "full_line": "Way forty-one: clean up their hairballs",
+    "start_seconds": 783.2,
+    "action_start_seconds": 790.88,
+    "action_end_seconds": 796.7,
+    "end_seconds": 798.56,
+    "words": [
+      {
+        "word": "Way",
+        "start": 790.88,
+        "end": 791.51
+      },
+      {
+        "word": "41:",
+        "start": 791.51,
+        "end": 792.28
+      },
+      {
+        "word": "clean",
+        "start": 792.28,
+        "end": 793.33
+      },
+      {
+        "word": "up",
+        "start": 793.33,
+        "end": 793.75
+      },
+      {
+        "word": "their",
+        "start": 793.75,
+        "end": 794.81
+      },
+      {
+        "word": "hairballs",
+        "start": 794.81,
+        "end": 796.7
+      }
+    ]
+  },
+  {
+    "way_number": 42,
+    "verse_index": 11,
+    "way_word": "forty-two",
+    "action": "keep them away from candles",
+    "display_lyric": "Way 42: keep them away from candles",
+    "full_line": "Way forty-two: keep them away from candles",
+    "start_seconds": 798.56,
+    "action_start_seconds": 806.24,
+    "action_end_seconds": 812.06,
+    "end_seconds": 813.92,
+    "words": [
+      {
+        "word": "Way",
+        "start": 806.24,
+        "end": 806.87
+      },
+      {
+        "word": "42:",
+        "start": 806.87,
+        "end": 807.64
+      },
+      {
+        "word": "keep",
+        "start": 807.64,
+        "end": 808.41
+      },
+      {
+        "word": "them",
+        "start": 808.41,
+        "end": 809.18
+      },
+      {
+        "word": "away",
+        "start": 809.18,
+        "end": 809.95
+      },
+      {
+        "word": "from",
+        "start": 809.95,
+        "end": 810.71
+      },
+      {
+        "word": "candles",
+        "start": 810.71,
+        "end": 812.06
+      }
+    ]
+  },
+  {
+    "way_number": 43,
+    "verse_index": 11,
+    "way_word": "forty-three",
+    "action": "give him a separate zone",
+    "display_lyric": "Way 43: give him a separate zone",
+    "full_line": "Way forty-three: give him a separate zone",
+    "start_seconds": 813.92,
+    "action_start_seconds": 821.6,
+    "action_end_seconds": 827.42,
+    "end_seconds": 829.28,
+    "words": [
+      {
+        "word": "Way",
+        "start": 821.6,
+        "end": 822.23
+      },
+      {
+        "word": "43:",
+        "start": 822.23,
+        "end": 823.0
+      },
+      {
+        "word": "give",
+        "start": 823.0,
+        "end": 823.84
+      },
+      {
+        "word": "him",
+        "start": 823.84,
+        "end": 824.47
+      },
+      {
+        "word": "a",
+        "start": 824.47,
+        "end": 824.89
+      },
+      {
+        "word": "separate",
+        "start": 824.89,
+        "end": 826.58
+      },
+      {
+        "word": "zone",
+        "start": 826.58,
+        "end": 827.42
+      }
+    ]
+  },
+  {
+    "way_number": 44,
+    "verse_index": 11,
+    "way_word": "forty-four",
+    "action": "never play with them aggressively",
+    "display_lyric": "Way 44: never play with them aggressively",
+    "full_line": "Way forty-four: never play with them aggressively",
+    "start_seconds": 829.28,
+    "action_start_seconds": 836.96,
+    "action_end_seconds": 842.78,
+    "end_seconds": 861.12,
+    "words": [
+      {
+        "word": "Way",
+        "start": 836.96,
+        "end": 837.59
+      },
+      {
+        "word": "44:",
+        "start": 837.59,
+        "end": 838.36
+      },
+      {
+        "word": "never",
+        "start": 838.36,
+        "end": 839.12
+      },
+      {
+        "word": "play",
+        "start": 839.12,
+        "end": 839.73
+      },
+      {
+        "word": "with",
+        "start": 839.73,
+        "end": 840.34
+      },
+      {
+        "word": "them",
+        "start": 840.34,
+        "end": 840.95
+      },
+      {
+        "word": "aggressively",
+        "start": 840.95,
+        "end": 842.78
+      }
+    ]
+  },
+  {
+    "way_number": 45,
+    "verse_index": 12,
+    "way_word": "forty-five",
+    "action": "increase his cuddle time",
+    "display_lyric": "Way 45: increase his cuddle time",
+    "full_line": "Way forty-five: increase his cuddle time",
+    "start_seconds": 861.12,
+    "action_start_seconds": 868.8,
+    "action_end_seconds": 874.62,
+    "end_seconds": 876.48,
+    "words": [
+      {
+        "word": "Way",
+        "start": 868.8,
+        "end": 869.43
+      },
+      {
+        "word": "45:",
+        "start": 869.43,
+        "end": 870.2
+      },
+      {
+        "word": "increase",
+        "start": 870.2,
+        "end": 871.88
+      },
+      {
+        "word": "his",
+        "start": 871.88,
+        "end": 872.52
+      },
+      {
+        "word": "cuddle",
+        "start": 872.52,
+        "end": 873.78
+      },
+      {
+        "word": "time",
+        "start": 873.78,
+        "end": 874.62
+      }
+    ]
+  },
+  {
+    "way_number": 46,
+    "verse_index": 12,
+    "way_word": "forty-six",
+    "action": "be sure to watch his weight",
+    "display_lyric": "Way 46: be sure to watch his weight",
+    "full_line": "Way forty-six: be sure to watch his weight",
+    "start_seconds": 876.48,
+    "action_start_seconds": 884.16,
+    "action_end_seconds": 889.98,
+    "end_seconds": 891.84,
+    "words": [
+      {
+        "word": "Way",
+        "start": 884.16,
+        "end": 884.79
+      },
+      {
+        "word": "46:",
+        "start": 884.79,
+        "end": 885.56
+      },
+      {
+        "word": "be",
+        "start": 885.56,
+        "end": 885.96
+      },
+      {
+        "word": "sure",
+        "start": 885.96,
+        "end": 886.77
+      },
+      {
+        "word": "to",
+        "start": 886.77,
+        "end": 887.17
+      },
+      {
+        "word": "watch",
+        "start": 887.17,
+        "end": 888.17
+      },
+      {
+        "word": "his",
+        "start": 888.17,
+        "end": 888.77
+      },
+      {
+        "word": "weight",
+        "start": 888.77,
+        "end": 889.98
+      }
+    ]
+  },
+  {
+    "way_number": 47,
+    "verse_index": 12,
+    "way_word": "forty-seven",
+    "action": "if you leave, turn on the radio",
+    "display_lyric": "Way 47: if you leave, turn on the radio",
+    "full_line": "Way forty-seven: if you leave, turn on the radio",
+    "start_seconds": 891.84,
+    "action_start_seconds": 899.52,
+    "action_end_seconds": 905.34,
+    "end_seconds": 907.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 899.52,
+        "end": 900.15
+      },
+      {
+        "word": "47:",
+        "start": 900.15,
+        "end": 900.92
+      },
+      {
+        "word": "if",
+        "start": 900.92,
+        "end": 901.27
+      },
+      {
+        "word": "you",
+        "start": 901.27,
+        "end": 901.8
+      },
+      {
+        "word": "leave,",
+        "start": 901.8,
+        "end": 902.86
+      },
+      {
+        "word": "turn",
+        "start": 902.86,
+        "end": 903.57
+      },
+      {
+        "word": "on",
+        "start": 903.57,
+        "end": 903.93
+      },
+      {
+        "word": "the",
+        "start": 903.93,
+        "end": 904.46
+      },
+      {
+        "word": "radio",
+        "start": 904.46,
+        "end": 905.34
+      }
+    ]
+  },
+  {
+    "way_number": 48,
+    "verse_index": 12,
+    "way_word": "forty-eight",
+    "action": "scold him firmly but with kindness",
+    "display_lyric": "Way 48: scold him firmly but with kindness",
+    "full_line": "Way forty-eight: scold him firmly but with kindness",
+    "start_seconds": 907.2,
+    "action_start_seconds": 914.88,
+    "action_end_seconds": 920.7,
+    "end_seconds": 937.12,
+    "words": [
+      {
+        "word": "Way",
+        "start": 914.88,
+        "end": 915.51
+      },
+      {
+        "word": "48:",
+        "start": 915.51,
+        "end": 916.28
+      },
+      {
+        "word": "scold",
+        "start": 916.28,
+        "end": 917.04
+      },
+      {
+        "word": "him",
+        "start": 917.04,
+        "end": 917.5
+      },
+      {
+        "word": "firmly",
+        "start": 917.5,
+        "end": 918.41
+      },
+      {
+        "word": "but",
+        "start": 918.41,
+        "end": 918.87
+      },
+      {
+        "word": "with",
+        "start": 918.87,
+        "end": 919.48
+      },
+      {
+        "word": "kindness",
+        "start": 919.48,
+        "end": 920.7
+      }
+    ]
+  },
+  {
+    "way_number": 49,
+    "verse_index": 13,
+    "way_word": "forty-nine",
+    "action": "respond when he meows *meow*",
+    "display_lyric": "Way 49: respond when he meows *meow*",
+    "full_line": "Way forty-nine: respond when he meows *meow*",
+    "start_seconds": 937.12,
+    "action_start_seconds": 944.8,
+    "action_end_seconds": 950.62,
+    "end_seconds": 952.48,
+    "words": [
+      {
+        "word": "Way",
+        "start": 944.8,
+        "end": 945.43
+      },
+      {
+        "word": "49:",
+        "start": 945.43,
+        "end": 946.2
+      },
+      {
+        "word": "respond",
+        "start": 946.2,
+        "end": 947.49
+      },
+      {
+        "word": "when",
+        "start": 947.49,
+        "end": 948.23
+      },
+      {
+        "word": "he",
+        "start": 948.23,
+        "end": 948.59
+      },
+      {
+        "word": "meows",
+        "start": 948.59,
+        "end": 949.51
+      },
+      {
+        "word": "*meow*",
+        "start": 949.51,
+        "end": 950.62
+      }
+    ]
+  },
+  {
+    "way_number": 50,
+    "verse_index": 13,
+    "way_word": "fifty",
+    "action": "give them a thing of cat grass",
+    "display_lyric": "Way 50: give them a thing of cat grass",
+    "full_line": "Way fifty: give them a thing of cat grass",
+    "start_seconds": 952.48,
+    "action_start_seconds": 960.16,
+    "action_end_seconds": 965.98,
+    "end_seconds": 967.84,
+    "words": [
+      {
+        "word": "Way",
+        "start": 960.16,
+        "end": 960.79
+      },
+      {
+        "word": "50:",
+        "start": 960.79,
+        "end": 961.56
+      },
+      {
+        "word": "give",
+        "start": 961.56,
+        "end": 962.27
+      },
+      {
+        "word": "them",
+        "start": 962.27,
+        "end": 962.97
+      },
+      {
+        "word": "a",
+        "start": 962.97,
+        "end": 963.33
+      },
+      {
+        "word": "thing",
+        "start": 963.33,
+        "end": 964.21
+      },
+      {
+        "word": "of",
+        "start": 964.21,
+        "end": 964.57
+      },
+      {
+        "word": "cat",
+        "start": 964.57,
+        "end": 965.1
+      },
+      {
+        "word": "grass",
+        "start": 965.1,
+        "end": 965.98
+      }
+    ]
+  },
+  {
+    "way_number": 51,
+    "verse_index": 13,
+    "way_word": "fifty-one",
+    "action": "scratch under his chin",
+    "display_lyric": "Way 51: scratch under his chin",
+    "full_line": "Way fifty-one: scratch under his chin",
+    "start_seconds": 967.84,
+    "action_start_seconds": 975.52,
+    "action_end_seconds": 981.34,
+    "end_seconds": 983.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 975.52,
+        "end": 976.15
+      },
+      {
+        "word": "51:",
+        "start": 976.15,
+        "end": 976.92
+      },
+      {
+        "word": "scratch",
+        "start": 976.92,
+        "end": 978.55
+      },
+      {
+        "word": "under",
+        "start": 978.55,
+        "end": 979.71
+      },
+      {
+        "word": "his",
+        "start": 979.71,
+        "end": 980.41
+      },
+      {
+        "word": "chin",
+        "start": 980.41,
+        "end": 981.34
+      }
+    ]
+  },
+  {
+    "way_number": 52,
+    "verse_index": 13,
+    "way_word": "fifty-two",
+    "action": "remind him that you love him",
+    "display_lyric": "Way 52: remind him that you love him",
+    "full_line": "Way fifty-two: remind him that you love him",
+    "start_seconds": 983.2,
+    "action_start_seconds": 990.88,
+    "action_end_seconds": 996.7,
+    "end_seconds": 1013.12,
+    "words": [
+      {
+        "word": "Way",
+        "start": 990.88,
+        "end": 991.51
+      },
+      {
+        "word": "52:",
+        "start": 991.51,
+        "end": 992.28
+      },
+      {
+        "word": "remind",
+        "start": 992.28,
+        "end": 993.43
+      },
+      {
+        "word": "him",
+        "start": 993.43,
+        "end": 994.01
+      },
+      {
+        "word": "that",
+        "start": 994.01,
+        "end": 994.78
+      },
+      {
+        "word": "you",
+        "start": 994.78,
+        "end": 995.35
+      },
+      {
+        "word": "love",
+        "start": 995.35,
+        "end": 996.12
+      },
+      {
+        "word": "him",
+        "start": 996.12,
+        "end": 996.7
+      }
+    ]
+  },
+  {
+    "way_number": 53,
+    "verse_index": 14,
+    "way_word": "fifty-three",
+    "action": "give them a box to play in",
+    "display_lyric": "Way 53: give them a box to play in",
+    "full_line": "Way fifty-three: give them a box to play in",
+    "start_seconds": 1013.12,
+    "action_start_seconds": 1020.8,
+    "action_end_seconds": 1026.62,
+    "end_seconds": 1028.48,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1020.8,
+        "end": 1021.43
+      },
+      {
+        "word": "53:",
+        "start": 1021.43,
+        "end": 1022.2
+      },
+      {
+        "word": "give",
+        "start": 1022.2,
+        "end": 1023.04
+      },
+      {
+        "word": "them",
+        "start": 1023.04,
+        "end": 1023.88
+      },
+      {
+        "word": "a",
+        "start": 1023.88,
+        "end": 1024.3
+      },
+      {
+        "word": "box",
+        "start": 1024.3,
+        "end": 1024.94
+      },
+      {
+        "word": "to",
+        "start": 1024.94,
+        "end": 1025.36
+      },
+      {
+        "word": "play",
+        "start": 1025.36,
+        "end": 1026.2
+      },
+      {
+        "word": "in",
+        "start": 1026.2,
+        "end": 1026.62
+      }
+    ]
+  },
+  {
+    "way_number": 54,
+    "verse_index": 14,
+    "way_word": "fifty-four",
+    "action": "if they're old, help them get down",
+    "display_lyric": "Way 54: if they're old, help them get down",
+    "full_line": "Way fifty-four: if they're old, help them get down",
+    "start_seconds": 1028.48,
+    "action_start_seconds": 1036.16,
+    "action_end_seconds": 1041.98,
+    "end_seconds": 1043.84,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1036.16,
+        "end": 1036.79
+      },
+      {
+        "word": "54:",
+        "start": 1036.79,
+        "end": 1037.56
+      },
+      {
+        "word": "if",
+        "start": 1037.56,
+        "end": 1037.88
+      },
+      {
+        "word": "they're",
+        "start": 1037.88,
+        "end": 1038.98
+      },
+      {
+        "word": "old,",
+        "start": 1038.98,
+        "end": 1039.61
+      },
+      {
+        "word": "help",
+        "start": 1039.61,
+        "end": 1040.24
+      },
+      {
+        "word": "them",
+        "start": 1040.24,
+        "end": 1040.88
+      },
+      {
+        "word": "get",
+        "start": 1040.88,
+        "end": 1041.35
+      },
+      {
+        "word": "down",
+        "start": 1041.35,
+        "end": 1041.98
+      }
+    ]
+  },
+  {
+    "way_number": 55,
+    "verse_index": 14,
+    "way_word": "fifty-five",
+    "action": "let them lick you with their rough tongue",
+    "display_lyric": "Way 55: let them lick you with their rough tongue",
+    "full_line": "Way fifty-five: let them lick you with their rough tongue",
+    "start_seconds": 1043.84,
+    "action_start_seconds": 1051.52,
+    "action_end_seconds": 1057.34,
+    "end_seconds": 1059.2,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1051.52,
+        "end": 1052.15
+      },
+      {
+        "word": "55:",
+        "start": 1052.15,
+        "end": 1052.92
+      },
+      {
+        "word": "let",
+        "start": 1052.92,
+        "end": 1053.31
+      },
+      {
+        "word": "them",
+        "start": 1053.31,
+        "end": 1053.83
+      },
+      {
+        "word": "lick",
+        "start": 1053.83,
+        "end": 1054.35
+      },
+      {
+        "word": "you",
+        "start": 1054.35,
+        "end": 1054.74
+      },
+      {
+        "word": "with",
+        "start": 1054.74,
+        "end": 1055.26
+      },
+      {
+        "word": "their",
+        "start": 1055.26,
+        "end": 1055.91
+      },
+      {
+        "word": "rough",
+        "start": 1055.91,
+        "end": 1056.56
+      },
+      {
+        "word": "tongue",
+        "start": 1056.56,
+        "end": 1057.34
+      }
+    ]
+  },
+  {
+    "way_number": 56,
+    "verse_index": 14,
+    "way_word": "fifty-six",
+    "action": "record precious memories",
+    "display_lyric": "Way 56: record precious memories",
+    "full_line": "Way fifty-six: record precious memories",
+    "start_seconds": 1059.2,
+    "action_start_seconds": 1066.88,
+    "action_end_seconds": 1072.7,
+    "end_seconds": 1091.04,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1066.88,
+        "end": 1067.51
+      },
+      {
+        "word": "56:",
+        "start": 1067.51,
+        "end": 1068.28
+      },
+      {
+        "word": "record",
+        "start": 1068.28,
+        "end": 1069.49
+      },
+      {
+        "word": "precious",
+        "start": 1069.49,
+        "end": 1071.09
+      },
+      {
+        "word": "memories",
+        "start": 1071.09,
+        "end": 1072.7
+      }
+    ]
+  },
+  {
+    "way_number": 57,
+    "verse_index": 15,
+    "way_word": "fifty-seven",
+    "action": "dress them up in ribbons",
+    "display_lyric": "Way 57: dress them up in ribbons",
+    "full_line": "Way fifty-seven: dress them up in ribbons",
+    "start_seconds": 1091.04,
+    "action_start_seconds": 1098.72,
+    "action_end_seconds": 1104.54,
+    "end_seconds": 1106.4,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1098.72,
+        "end": 1099.35
+      },
+      {
+        "word": "57:",
+        "start": 1099.35,
+        "end": 1100.12
+      },
+      {
+        "word": "dress",
+        "start": 1100.12,
+        "end": 1101.23
+      },
+      {
+        "word": "them",
+        "start": 1101.23,
+        "end": 1102.11
+      },
+      {
+        "word": "up",
+        "start": 1102.11,
+        "end": 1102.55
+      },
+      {
+        "word": "in",
+        "start": 1102.55,
+        "end": 1102.99
+      },
+      {
+        "word": "ribbons",
+        "start": 1102.99,
+        "end": 1104.54
+      }
+    ]
+  },
+  {
+    "way_number": 58,
+    "verse_index": 15,
+    "way_word": "fifty-eight",
+    "action": "give them a flea treatment",
+    "display_lyric": "Way 58: give them a flea treatment",
+    "full_line": "Way fifty-eight: give them a flea treatment",
+    "start_seconds": 1106.4,
+    "action_start_seconds": 1114.08,
+    "action_end_seconds": 1119.9,
+    "end_seconds": 1121.76,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1114.08,
+        "end": 1114.71
+      },
+      {
+        "word": "58:",
+        "start": 1114.71,
+        "end": 1115.48
+      },
+      {
+        "word": "give",
+        "start": 1115.48,
+        "end": 1116.25
+      },
+      {
+        "word": "them",
+        "start": 1116.25,
+        "end": 1117.02
+      },
+      {
+        "word": "a",
+        "start": 1117.02,
+        "end": 1117.4
+      },
+      {
+        "word": "flea",
+        "start": 1117.4,
+        "end": 1118.17
+      },
+      {
+        "word": "treatment",
+        "start": 1118.17,
+        "end": 1119.9
+      }
+    ]
+  },
+  {
+    "way_number": 59,
+    "verse_index": 15,
+    "way_word": "fifty-nine",
+    "action": "make a vet appointment",
+    "display_lyric": "Way 59: make a vet appointment",
+    "full_line": "Way fifty-nine: make a vet appointment",
+    "start_seconds": 1121.76,
+    "action_start_seconds": 1129.44,
+    "action_end_seconds": 1135.26,
+    "end_seconds": 1137.12,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1129.44,
+        "end": 1130.07
+      },
+      {
+        "word": "59:",
+        "start": 1130.07,
+        "end": 1130.84
+      },
+      {
+        "word": "make",
+        "start": 1130.84,
+        "end": 1131.72
+      },
+      {
+        "word": "a",
+        "start": 1131.72,
+        "end": 1132.17
+      },
+      {
+        "word": "vet",
+        "start": 1132.17,
+        "end": 1132.83
+      },
+      {
+        "word": "appointment",
+        "start": 1132.83,
+        "end": 1135.26
+      }
+    ]
+  },
+  {
+    "way_number": 60,
+    "verse_index": 15,
+    "way_word": "sixty",
+    "action": "give them a little wet food",
+    "display_lyric": "Way 60: give them a little wet food",
+    "full_line": "Way sixty: give them a little wet food",
+    "start_seconds": 1137.12,
+    "action_start_seconds": 1144.8,
+    "action_end_seconds": 1150.62,
+    "end_seconds": 1168.96,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1144.8,
+        "end": 1145.43
+      },
+      {
+        "word": "60:",
+        "start": 1145.43,
+        "end": 1146.2
+      },
+      {
+        "word": "give",
+        "start": 1146.2,
+        "end": 1146.97
+      },
+      {
+        "word": "them",
+        "start": 1146.97,
+        "end": 1147.74
+      },
+      {
+        "word": "a",
+        "start": 1147.74,
+        "end": 1148.12
+      },
+      {
+        "word": "little",
+        "start": 1148.12,
+        "end": 1149.27
+      },
+      {
+        "word": "wet",
+        "start": 1149.27,
+        "end": 1149.85
+      },
+      {
+        "word": "food",
+        "start": 1149.85,
+        "end": 1150.62
+      }
+    ]
+  },
+  {
+    "way_number": 61,
+    "verse_index": 16,
+    "way_word": "sixty-one",
+    "action": "when they scratch you, don't get angry",
+    "display_lyric": "Way 61: when they scratch you, don't get angry",
+    "full_line": "Way sixty-one: when they scratch you, don't get angry",
+    "start_seconds": 1168.96,
+    "action_start_seconds": 1176.64,
+    "action_end_seconds": 1182.46,
+    "end_seconds": 1184.32,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1176.64,
+        "end": 1177.27
+      },
+      {
+        "word": "61:",
+        "start": 1177.27,
+        "end": 1178.04
+      },
+      {
+        "word": "when",
+        "start": 1178.04,
+        "end": 1178.59
+      },
+      {
+        "word": "they",
+        "start": 1178.59,
+        "end": 1179.15
+      },
+      {
+        "word": "scratch",
+        "start": 1179.15,
+        "end": 1180.11
+      },
+      {
+        "word": "you,",
+        "start": 1180.11,
+        "end": 1180.66
+      },
+      {
+        "word": "don't",
+        "start": 1180.66,
+        "end": 1181.36
+      },
+      {
+        "word": "get",
+        "start": 1181.36,
+        "end": 1181.77
+      },
+      {
+        "word": "angry",
+        "start": 1181.77,
+        "end": 1182.46
+      }
+    ]
+  },
+  {
+    "way_number": 62,
+    "verse_index": 16,
+    "way_word": "sixty-two",
+    "action": "give them some private time",
+    "display_lyric": "Way 62: give them some private time",
+    "full_line": "Way sixty-two: give them some private time",
+    "start_seconds": 1184.32,
+    "action_start_seconds": 1192.0,
+    "action_end_seconds": 1197.82,
+    "end_seconds": 1199.68,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1192.0,
+        "end": 1192.63
+      },
+      {
+        "word": "62:",
+        "start": 1192.63,
+        "end": 1193.4
+      },
+      {
+        "word": "give",
+        "start": 1193.4,
+        "end": 1194.17
+      },
+      {
+        "word": "them",
+        "start": 1194.17,
+        "end": 1194.94
+      },
+      {
+        "word": "some",
+        "start": 1194.94,
+        "end": 1195.71
+      },
+      {
+        "word": "private",
+        "start": 1195.71,
+        "end": 1197.05
+      },
+      {
+        "word": "time",
+        "start": 1197.05,
+        "end": 1197.82
+      }
+    ]
+  },
+  {
+    "way_number": 63,
+    "verse_index": 16,
+    "way_word": "sixty-three",
+    "action": "treat them with respect",
+    "display_lyric": "Way 63: treat them with respect",
+    "full_line": "Way sixty-three: treat them with respect",
+    "start_seconds": 1199.68,
+    "action_start_seconds": 1207.36,
+    "action_end_seconds": 1213.18,
+    "end_seconds": 1215.04,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1207.36,
+        "end": 1207.99
+      },
+      {
+        "word": "63:",
+        "start": 1207.99,
+        "end": 1208.76
+      },
+      {
+        "word": "treat",
+        "start": 1208.76,
+        "end": 1209.87
+      },
+      {
+        "word": "them",
+        "start": 1209.87,
+        "end": 1210.75
+      },
+      {
+        "word": "with",
+        "start": 1210.75,
+        "end": 1211.63
+      },
+      {
+        "word": "respect",
+        "start": 1211.63,
+        "end": 1213.18
+      }
+    ]
+  },
+  {
+    "way_number": 64,
+    "verse_index": 16,
+    "way_word": "sixty-four",
+    "action": "when he grooms himself, say \"good job\"",
+    "display_lyric": "Way 64: when he grooms himself, say \"good job\"",
+    "full_line": "Way sixty-four: when he grooms himself, say \"good job\"",
+    "start_seconds": 1215.04,
+    "action_start_seconds": 1222.72,
+    "action_end_seconds": 1228.54,
+    "end_seconds": 1246.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1222.72,
+        "end": 1223.35
+      },
+      {
+        "word": "64:",
+        "start": 1223.35,
+        "end": 1224.12
+      },
+      {
+        "word": "when",
+        "start": 1224.12,
+        "end": 1224.67
+      },
+      {
+        "word": "he",
+        "start": 1224.67,
+        "end": 1224.95
+      },
+      {
+        "word": "grooms",
+        "start": 1224.95,
+        "end": 1225.78
+      },
+      {
+        "word": "himself,",
+        "start": 1225.78,
+        "end": 1226.88
+      },
+      {
+        "word": "say",
+        "start": 1226.88,
+        "end": 1227.3
+      },
+      {
+        "word": "\"good",
+        "start": 1227.3,
+        "end": 1227.99
+      },
+      {
+        "word": "job\"",
+        "start": 1227.99,
+        "end": 1228.54
+      }
+    ]
+  },
+  {
+    "way_number": 65,
+    "verse_index": 17,
+    "way_word": "sixty-five",
+    "action": "let them chase a laser pointer",
+    "display_lyric": "Way 65: let them chase a laser pointer",
+    "full_line": "Way sixty-five: let them chase a laser pointer",
+    "start_seconds": 1246.88,
+    "action_start_seconds": 1254.56,
+    "action_end_seconds": 1260.38,
+    "end_seconds": 1262.24,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1254.56,
+        "end": 1255.19
+      },
+      {
+        "word": "65:",
+        "start": 1255.19,
+        "end": 1255.96
+      },
+      {
+        "word": "let",
+        "start": 1255.96,
+        "end": 1256.47
+      },
+      {
+        "word": "them",
+        "start": 1256.47,
+        "end": 1257.15
+      },
+      {
+        "word": "chase",
+        "start": 1257.15,
+        "end": 1258.0
+      },
+      {
+        "word": "a",
+        "start": 1258.0,
+        "end": 1258.34
+      },
+      {
+        "word": "laser",
+        "start": 1258.34,
+        "end": 1259.19
+      },
+      {
+        "word": "pointer",
+        "start": 1259.19,
+        "end": 1260.38
+      }
+    ]
+  },
+  {
+    "way_number": 66,
+    "verse_index": 17,
+    "way_word": "sixty-six",
+    "action": "clean out their ears",
+    "display_lyric": "Way 66: clean out their ears",
+    "full_line": "Way sixty-six: clean out their ears",
+    "start_seconds": 1262.24,
+    "action_start_seconds": 1269.92,
+    "action_end_seconds": 1275.74,
+    "end_seconds": 1277.6,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1269.92,
+        "end": 1270.55
+      },
+      {
+        "word": "66:",
+        "start": 1270.55,
+        "end": 1271.32
+      },
+      {
+        "word": "clean",
+        "start": 1271.32,
+        "end": 1272.62
+      },
+      {
+        "word": "out",
+        "start": 1272.62,
+        "end": 1273.4
+      },
+      {
+        "word": "their",
+        "start": 1273.4,
+        "end": 1274.7
+      },
+      {
+        "word": "ears",
+        "start": 1274.7,
+        "end": 1275.74
+      }
+    ]
+  },
+  {
+    "way_number": 67,
+    "verse_index": 17,
+    "way_word": "sixty-seven",
+    "action": "never smoke around them",
+    "display_lyric": "Way 67: never smoke around them",
+    "full_line": "Way sixty-seven: never smoke around them",
+    "start_seconds": 1277.6,
+    "action_start_seconds": 1285.28,
+    "action_end_seconds": 1291.1,
+    "end_seconds": 1292.96,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1285.28,
+        "end": 1285.91
+      },
+      {
+        "word": "67:",
+        "start": 1285.91,
+        "end": 1286.68
+      },
+      {
+        "word": "never",
+        "start": 1286.68,
+        "end": 1287.79
+      },
+      {
+        "word": "smoke",
+        "start": 1287.79,
+        "end": 1288.89
+      },
+      {
+        "word": "around",
+        "start": 1288.89,
+        "end": 1290.22
+      },
+      {
+        "word": "them",
+        "start": 1290.22,
+        "end": 1291.1
+      }
+    ]
+  },
+  {
+    "way_number": 68,
+    "verse_index": 17,
+    "way_word": "sixty-eight",
+    "action": "buy a sturdy cat carrier",
+    "display_lyric": "Way 68: buy a sturdy cat carrier",
+    "full_line": "Way sixty-eight: buy a sturdy cat carrier",
+    "start_seconds": 1292.96,
+    "action_start_seconds": 1300.64,
+    "action_end_seconds": 1306.46,
+    "end_seconds": 1324.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1300.64,
+        "end": 1301.27
+      },
+      {
+        "word": "68:",
+        "start": 1301.27,
+        "end": 1302.04
+      },
+      {
+        "word": "buy",
+        "start": 1302.04,
+        "end": 1302.67
+      },
+      {
+        "word": "a",
+        "start": 1302.67,
+        "end": 1303.09
+      },
+      {
+        "word": "sturdy",
+        "start": 1303.09,
+        "end": 1304.36
+      },
+      {
+        "word": "cat",
+        "start": 1304.36,
+        "end": 1304.99
+      },
+      {
+        "word": "carrier",
+        "start": 1304.99,
+        "end": 1306.46
+      }
+    ]
+  },
+  {
+    "way_number": 69,
+    "verse_index": 18,
+    "way_word": "sixty-nine",
+    "action": "listen to them purr",
+    "display_lyric": "Way 69: listen to them purr",
+    "full_line": "Way sixty-nine: listen to them purr",
+    "start_seconds": 1324.8,
+    "action_start_seconds": 1332.48,
+    "action_end_seconds": 1338.3,
+    "end_seconds": 1340.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1332.48,
+        "end": 1333.11
+      },
+      {
+        "word": "69:",
+        "start": 1333.11,
+        "end": 1333.88
+      },
+      {
+        "word": "listen",
+        "start": 1333.88,
+        "end": 1335.54
+      },
+      {
+        "word": "to",
+        "start": 1335.54,
+        "end": 1336.09
+      },
+      {
+        "word": "them",
+        "start": 1336.09,
+        "end": 1337.2
+      },
+      {
+        "word": "purr",
+        "start": 1337.2,
+        "end": 1338.3
+      }
+    ]
+  },
+  {
+    "way_number": 70,
+    "verse_index": 18,
+    "way_word": "seventy",
+    "action": "Dentabite Temptations",
+    "display_lyric": "Way 70: Dentabite Temptations",
+    "full_line": "Way seventy: Dentabite Temptations",
+    "start_seconds": 1340.16,
+    "action_start_seconds": 1347.84,
+    "action_end_seconds": 1353.66,
+    "end_seconds": 1355.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1347.84,
+        "end": 1348.47
+      },
+      {
+        "word": "70:",
+        "start": 1348.47,
+        "end": 1349.24
+      },
+      {
+        "word": "Dentabite",
+        "start": 1349.24,
+        "end": 1351.23
+      },
+      {
+        "word": "Temptations",
+        "start": 1351.23,
+        "end": 1353.66
+      }
+    ]
+  },
+  {
+    "way_number": 71,
+    "verse_index": 18,
+    "way_word": "seventy-one",
+    "action": "give them your full attention",
+    "display_lyric": "Way 71: give them your full attention",
+    "full_line": "Way seventy-one: give them your full attention",
+    "start_seconds": 1355.52,
+    "action_start_seconds": 1363.2,
+    "action_end_seconds": 1369.02,
+    "end_seconds": 1370.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1363.2,
+        "end": 1363.83
+      },
+      {
+        "word": "71:",
+        "start": 1363.83,
+        "end": 1364.6
+      },
+      {
+        "word": "give",
+        "start": 1364.6,
+        "end": 1365.31
+      },
+      {
+        "word": "them",
+        "start": 1365.31,
+        "end": 1366.01
+      },
+      {
+        "word": "your",
+        "start": 1366.01,
+        "end": 1366.72
+      },
+      {
+        "word": "full",
+        "start": 1366.72,
+        "end": 1367.43
+      },
+      {
+        "word": "attention",
+        "start": 1367.43,
+        "end": 1369.02
+      }
+    ]
+  },
+  {
+    "way_number": 72,
+    "verse_index": 18,
+    "way_word": "seven-two",
+    "action": "don't trap them in the laundry basket",
+    "display_lyric": "Way 72: don't trap them in the laundry basket",
+    "full_line": "Way seven-two: don't trap them in the laundry basket",
+    "start_seconds": 1370.88,
+    "action_start_seconds": 1378.56,
+    "action_end_seconds": 1384.38,
+    "end_seconds": 1400.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1378.56,
+        "end": 1379.19
+      },
+      {
+        "word": "72:",
+        "start": 1379.19,
+        "end": 1379.96
+      },
+      {
+        "word": "don't",
+        "start": 1379.96,
+        "end": 1380.67
+      },
+      {
+        "word": "trap",
+        "start": 1380.67,
+        "end": 1381.24
+      },
+      {
+        "word": "them",
+        "start": 1381.24,
+        "end": 1381.81
+      },
+      {
+        "word": "in",
+        "start": 1381.81,
+        "end": 1382.1
+      },
+      {
+        "word": "the",
+        "start": 1382.1,
+        "end": 1382.53
+      },
+      {
+        "word": "laundry",
+        "start": 1382.53,
+        "end": 1383.52
+      },
+      {
+        "word": "basket",
+        "start": 1383.52,
+        "end": 1384.38
+      }
+    ]
+  },
+  {
+    "way_number": 73,
+    "verse_index": 19,
+    "way_word": "seventy-three",
+    "action": "let them sleep in bed with you",
+    "display_lyric": "Way 73: let them sleep in bed with you",
+    "full_line": "Way seventy-three: let them sleep in bed with you",
+    "start_seconds": 1400.8,
+    "action_start_seconds": 1408.48,
+    "action_end_seconds": 1414.3,
+    "end_seconds": 1416.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1408.48,
+        "end": 1409.11
+      },
+      {
+        "word": "73:",
+        "start": 1409.11,
+        "end": 1409.88
+      },
+      {
+        "word": "let",
+        "start": 1409.88,
+        "end": 1410.43
+      },
+      {
+        "word": "them",
+        "start": 1410.43,
+        "end": 1411.17
+      },
+      {
+        "word": "sleep",
+        "start": 1411.17,
+        "end": 1412.09
+      },
+      {
+        "word": "in",
+        "start": 1412.09,
+        "end": 1412.46
+      },
+      {
+        "word": "bed",
+        "start": 1412.46,
+        "end": 1413.01
+      },
+      {
+        "word": "with",
+        "start": 1413.01,
+        "end": 1413.75
+      },
+      {
+        "word": "you",
+        "start": 1413.75,
+        "end": 1414.3
+      }
+    ]
+  },
+  {
+    "way_number": 74,
+    "verse_index": 19,
+    "way_word": "seventy-four",
+    "action": "make sure they're not locked in the closet",
+    "display_lyric": "Way 74: make sure they're not locked in the closet",
+    "full_line": "Way seventy-four: make sure they're not locked in the closet",
+    "start_seconds": 1416.16,
+    "action_start_seconds": 1423.84,
+    "action_end_seconds": 1429.66,
+    "end_seconds": 1431.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1423.84,
+        "end": 1424.47
+      },
+      {
+        "word": "74:",
+        "start": 1424.47,
+        "end": 1425.24
+      },
+      {
+        "word": "make",
+        "start": 1425.24,
+        "end": 1425.75
+      },
+      {
+        "word": "sure",
+        "start": 1425.75,
+        "end": 1426.25
+      },
+      {
+        "word": "they're",
+        "start": 1426.25,
+        "end": 1427.13
+      },
+      {
+        "word": "not",
+        "start": 1427.13,
+        "end": 1427.51
+      },
+      {
+        "word": "locked",
+        "start": 1427.51,
+        "end": 1428.27
+      },
+      {
+        "word": "in",
+        "start": 1428.27,
+        "end": 1428.52
+      },
+      {
+        "word": "the",
+        "start": 1428.52,
+        "end": 1428.9
+      },
+      {
+        "word": "closet",
+        "start": 1428.9,
+        "end": 1429.66
+      }
+    ]
+  },
+  {
+    "way_number": 75,
+    "verse_index": 19,
+    "way_word": "seventy-five",
+    "action": "don't let them play in plastic bags",
+    "display_lyric": "Way 75: don't let them play in plastic bags",
+    "full_line": "Way seventy-five: don't let them play in plastic bags",
+    "start_seconds": 1431.52,
+    "action_start_seconds": 1439.2,
+    "action_end_seconds": 1445.02,
+    "end_seconds": 1446.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1439.2,
+        "end": 1439.83
+      },
+      {
+        "word": "75:",
+        "start": 1439.83,
+        "end": 1440.6
+      },
+      {
+        "word": "don't",
+        "start": 1440.6,
+        "end": 1441.36
+      },
+      {
+        "word": "let",
+        "start": 1441.36,
+        "end": 1441.82
+      },
+      {
+        "word": "them",
+        "start": 1441.82,
+        "end": 1442.43
+      },
+      {
+        "word": "play",
+        "start": 1442.43,
+        "end": 1443.04
+      },
+      {
+        "word": "in",
+        "start": 1443.04,
+        "end": 1443.34
+      },
+      {
+        "word": "plastic",
+        "start": 1443.34,
+        "end": 1444.41
+      },
+      {
+        "word": "bags",
+        "start": 1444.41,
+        "end": 1445.02
+      }
+    ]
+  },
+  {
+    "way_number": 76,
+    "verse_index": 19,
+    "way_word": "seventy-six",
+    "action": "give them a massage",
+    "display_lyric": "Way 76: give them a massage",
+    "full_line": "Way seventy-six: give them a massage",
+    "start_seconds": 1446.88,
+    "action_start_seconds": 1454.56,
+    "action_end_seconds": 1460.38,
+    "end_seconds": 1476.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1454.56,
+        "end": 1455.19
+      },
+      {
+        "word": "76:",
+        "start": 1455.19,
+        "end": 1455.96
+      },
+      {
+        "word": "give",
+        "start": 1455.96,
+        "end": 1457.0
+      },
+      {
+        "word": "them",
+        "start": 1457.0,
+        "end": 1458.04
+      },
+      {
+        "word": "a",
+        "start": 1458.04,
+        "end": 1458.56
+      },
+      {
+        "word": "massage",
+        "start": 1458.56,
+        "end": 1460.38
+      }
+    ]
+  },
+  {
+    "way_number": 77,
+    "verse_index": 20,
+    "way_word": "seventy-seven",
+    "action": "touch him as you pass by",
+    "display_lyric": "Way 77: touch him as you pass by",
+    "full_line": "Way seventy-seven: touch him as you pass by",
+    "start_seconds": 1476.8,
+    "action_start_seconds": 1484.48,
+    "action_end_seconds": 1490.3,
+    "end_seconds": 1492.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1484.48,
+        "end": 1485.11
+      },
+      {
+        "word": "77:",
+        "start": 1485.11,
+        "end": 1485.88
+      },
+      {
+        "word": "touch",
+        "start": 1485.88,
+        "end": 1487.04
+      },
+      {
+        "word": "him",
+        "start": 1487.04,
+        "end": 1487.74
+      },
+      {
+        "word": "as",
+        "start": 1487.74,
+        "end": 1488.21
+      },
+      {
+        "word": "you",
+        "start": 1488.21,
+        "end": 1488.9
+      },
+      {
+        "word": "pass",
+        "start": 1488.9,
+        "end": 1489.83
+      },
+      {
+        "word": "by",
+        "start": 1489.83,
+        "end": 1490.3
+      }
+    ]
+  },
+  {
+    "way_number": 78,
+    "verse_index": 20,
+    "way_word": "seventy-eight",
+    "action": "if he's on the couch, don't be mad",
+    "display_lyric": "Way 78: if he's on the couch, don't be mad",
+    "full_line": "Way seventy-eight: if he's on the couch, don't be mad",
+    "start_seconds": 1492.16,
+    "action_start_seconds": 1499.84,
+    "action_end_seconds": 1505.66,
+    "end_seconds": 1507.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1499.84,
+        "end": 1500.47
+      },
+      {
+        "word": "78:",
+        "start": 1500.47,
+        "end": 1501.24
+      },
+      {
+        "word": "if",
+        "start": 1501.24,
+        "end": 1501.57
+      },
+      {
+        "word": "he's",
+        "start": 1501.57,
+        "end": 1502.22
+      },
+      {
+        "word": "on",
+        "start": 1502.22,
+        "end": 1502.55
+      },
+      {
+        "word": "the",
+        "start": 1502.55,
+        "end": 1503.04
+      },
+      {
+        "word": "couch,",
+        "start": 1503.04,
+        "end": 1504.02
+      },
+      {
+        "word": "don't",
+        "start": 1504.02,
+        "end": 1504.84
+      },
+      {
+        "word": "be",
+        "start": 1504.84,
+        "end": 1505.17
+      },
+      {
+        "word": "mad",
+        "start": 1505.17,
+        "end": 1505.66
+      }
+    ]
+  },
+  {
+    "way_number": 79,
+    "verse_index": 20,
+    "way_word": "seventy-nine",
+    "action": "if they hate fans, turn the fan off",
+    "display_lyric": "Way 79: if they hate fans, turn the fan off",
+    "full_line": "Way seventy-nine: if they hate fans, turn the fan off",
+    "start_seconds": 1507.52,
+    "action_start_seconds": 1515.2,
+    "action_end_seconds": 1521.02,
+    "end_seconds": 1522.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1515.2,
+        "end": 1515.83
+      },
+      {
+        "word": "79:",
+        "start": 1515.83,
+        "end": 1516.6
+      },
+      {
+        "word": "if",
+        "start": 1516.6,
+        "end": 1516.92
+      },
+      {
+        "word": "they",
+        "start": 1516.92,
+        "end": 1517.55
+      },
+      {
+        "word": "hate",
+        "start": 1517.55,
+        "end": 1518.18
+      },
+      {
+        "word": "fans,",
+        "start": 1518.18,
+        "end": 1518.97
+      },
+      {
+        "word": "turn",
+        "start": 1518.97,
+        "end": 1519.6
+      },
+      {
+        "word": "the",
+        "start": 1519.6,
+        "end": 1520.07
+      },
+      {
+        "word": "fan",
+        "start": 1520.07,
+        "end": 1520.55
+      },
+      {
+        "word": "off",
+        "start": 1520.55,
+        "end": 1521.02
+      }
+    ]
+  },
+  {
+    "way_number": 80,
+    "verse_index": 20,
+    "way_word": "eighty",
+    "action": "when there's a bird outside, say \"hey, look!\"",
+    "display_lyric": "Way 80: when there's a bird outside, say \"hey, look!\"",
+    "full_line": "Way eighty: when there's a bird outside, say \"hey, look!\"",
+    "start_seconds": 1522.88,
+    "action_start_seconds": 1530.56,
+    "action_end_seconds": 1536.38,
+    "end_seconds": 1552.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1530.56,
+        "end": 1531.19
+      },
+      {
+        "word": "80:",
+        "start": 1531.19,
+        "end": 1531.96
+      },
+      {
+        "word": "when",
+        "start": 1531.96,
+        "end": 1532.41
+      },
+      {
+        "word": "there's",
+        "start": 1532.41,
+        "end": 1533.21
+      },
+      {
+        "word": "a",
+        "start": 1533.21,
+        "end": 1533.43
+      },
+      {
+        "word": "bird",
+        "start": 1533.43,
+        "end": 1533.89
+      },
+      {
+        "word": "outside,",
+        "start": 1533.89,
+        "end": 1534.79
+      },
+      {
+        "word": "say",
+        "start": 1534.79,
+        "end": 1535.13
+      },
+      {
+        "word": "\"hey,",
+        "start": 1535.13,
+        "end": 1535.7
+      },
+      {
+        "word": "look!\"",
+        "start": 1535.7,
+        "end": 1536.38
+      }
+    ]
+  },
+  {
+    "way_number": 81,
+    "verse_index": 21,
+    "way_word": "eighty-one",
+    "action": "intrigue them with a funny sound *honk*",
+    "display_lyric": "Way 81: intrigue them with a funny sound *honk*",
+    "full_line": "Way eighty-one: intrigue them with a funny sound *honk*",
+    "start_seconds": 1552.8,
+    "action_start_seconds": 1560.48,
+    "action_end_seconds": 1566.3,
+    "end_seconds": 1568.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1560.48,
+        "end": 1561.11
+      },
+      {
+        "word": "81:",
+        "start": 1561.11,
+        "end": 1561.88
+      },
+      {
+        "word": "intrigue",
+        "start": 1561.88,
+        "end": 1562.92
+      },
+      {
+        "word": "them",
+        "start": 1562.92,
+        "end": 1563.44
+      },
+      {
+        "word": "with",
+        "start": 1563.44,
+        "end": 1563.96
+      },
+      {
+        "word": "a",
+        "start": 1563.96,
+        "end": 1564.22
+      },
+      {
+        "word": "funny",
+        "start": 1564.22,
+        "end": 1564.87
+      },
+      {
+        "word": "sound",
+        "start": 1564.87,
+        "end": 1565.52
+      },
+      {
+        "word": "*honk*",
+        "start": 1565.52,
+        "end": 1566.3
+      }
+    ]
+  },
+  {
+    "way_number": 82,
+    "verse_index": 21,
+    "way_word": "eighty-two",
+    "action": "don't forget sardine time",
+    "display_lyric": "Way 82: don't forget sardine time",
+    "full_line": "Way eighty-two: don't forget sardine time",
+    "start_seconds": 1568.16,
+    "action_start_seconds": 1575.84,
+    "action_end_seconds": 1581.66,
+    "end_seconds": 1583.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1575.84,
+        "end": 1576.47
+      },
+      {
+        "word": "82:",
+        "start": 1576.47,
+        "end": 1577.24
+      },
+      {
+        "word": "don't",
+        "start": 1577.24,
+        "end": 1578.24
+      },
+      {
+        "word": "forget",
+        "start": 1578.24,
+        "end": 1579.45
+      },
+      {
+        "word": "sardine",
+        "start": 1579.45,
+        "end": 1580.86
+      },
+      {
+        "word": "time",
+        "start": 1580.86,
+        "end": 1581.66
+      }
+    ]
+  },
+  {
+    "way_number": 83,
+    "verse_index": 21,
+    "way_word": "eighty-three",
+    "action": "let him play with your old socks",
+    "display_lyric": "Way 83: let him play with your old socks",
+    "full_line": "Way eighty-three: let him play with your old socks",
+    "start_seconds": 1583.52,
+    "action_start_seconds": 1591.2,
+    "action_end_seconds": 1597.02,
+    "end_seconds": 1598.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1591.2,
+        "end": 1591.83
+      },
+      {
+        "word": "83:",
+        "start": 1591.83,
+        "end": 1592.6
+      },
+      {
+        "word": "let",
+        "start": 1592.6,
+        "end": 1593.11
+      },
+      {
+        "word": "him",
+        "start": 1593.11,
+        "end": 1593.62
+      },
+      {
+        "word": "play",
+        "start": 1593.62,
+        "end": 1594.3
+      },
+      {
+        "word": "with",
+        "start": 1594.3,
+        "end": 1594.98
+      },
+      {
+        "word": "your",
+        "start": 1594.98,
+        "end": 1595.66
+      },
+      {
+        "word": "old",
+        "start": 1595.66,
+        "end": 1596.17
+      },
+      {
+        "word": "socks",
+        "start": 1596.17,
+        "end": 1597.02
+      }
+    ]
+  },
+  {
+    "way_number": 84,
+    "verse_index": 21,
+    "way_word": "eighty-four",
+    "action": "stroke in the direction that his fur goes",
+    "display_lyric": "Way 84: stroke in the direction that his fur goes",
+    "full_line": "Way eighty-four: stroke in the direction that his fur goes",
+    "start_seconds": 1598.88,
+    "action_start_seconds": 1606.56,
+    "action_end_seconds": 1612.38,
+    "end_seconds": 1628.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1606.56,
+        "end": 1607.19
+      },
+      {
+        "word": "84:",
+        "start": 1607.19,
+        "end": 1607.96
+      },
+      {
+        "word": "stroke",
+        "start": 1607.96,
+        "end": 1608.74
+      },
+      {
+        "word": "in",
+        "start": 1608.74,
+        "end": 1609.0
+      },
+      {
+        "word": "the",
+        "start": 1609.0,
+        "end": 1609.39
+      },
+      {
+        "word": "direction",
+        "start": 1609.39,
+        "end": 1610.56
+      },
+      {
+        "word": "that",
+        "start": 1610.56,
+        "end": 1611.08
+      },
+      {
+        "word": "his",
+        "start": 1611.08,
+        "end": 1611.47
+      },
+      {
+        "word": "fur",
+        "start": 1611.47,
+        "end": 1611.86
+      },
+      {
+        "word": "goes",
+        "start": 1611.86,
+        "end": 1612.38
+      }
+    ]
+  },
+  {
+    "way_number": 85,
+    "verse_index": 22,
+    "way_word": "eighty-five",
+    "action": "admire his long whiskers",
+    "display_lyric": "Way 85: admire his long whiskers",
+    "full_line": "Way eighty-five: admire his long whiskers",
+    "start_seconds": 1628.8,
+    "action_start_seconds": 1636.48,
+    "action_end_seconds": 1642.3,
+    "end_seconds": 1644.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1636.48,
+        "end": 1637.11
+      },
+      {
+        "word": "85:",
+        "start": 1637.11,
+        "end": 1637.88
+      },
+      {
+        "word": "admire",
+        "start": 1637.88,
+        "end": 1639.14
+      },
+      {
+        "word": "his",
+        "start": 1639.14,
+        "end": 1639.77
+      },
+      {
+        "word": "long",
+        "start": 1639.77,
+        "end": 1640.62
+      },
+      {
+        "word": "whiskers",
+        "start": 1640.62,
+        "end": 1642.3
+      }
+    ]
+  },
+  {
+    "way_number": 86,
+    "verse_index": 22,
+    "way_word": "eighty-six",
+    "action": "keep his box away from his food",
+    "display_lyric": "Way 86: keep his box away from his food",
+    "full_line": "Way eighty-six: keep his box away from his food",
+    "start_seconds": 1644.16,
+    "action_start_seconds": 1651.84,
+    "action_end_seconds": 1657.66,
+    "end_seconds": 1659.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1651.84,
+        "end": 1652.47
+      },
+      {
+        "word": "86:",
+        "start": 1652.47,
+        "end": 1653.24
+      },
+      {
+        "word": "keep",
+        "start": 1653.24,
+        "end": 1653.95
+      },
+      {
+        "word": "his",
+        "start": 1653.95,
+        "end": 1654.48
+      },
+      {
+        "word": "box",
+        "start": 1654.48,
+        "end": 1655.01
+      },
+      {
+        "word": "away",
+        "start": 1655.01,
+        "end": 1655.72
+      },
+      {
+        "word": "from",
+        "start": 1655.72,
+        "end": 1656.42
+      },
+      {
+        "word": "his",
+        "start": 1656.42,
+        "end": 1656.95
+      },
+      {
+        "word": "food",
+        "start": 1656.95,
+        "end": 1657.66
+      }
+    ]
+  },
+  {
+    "way_number": 87,
+    "verse_index": 22,
+    "way_word": "eighty-seven",
+    "action": "pretend that he's a piano",
+    "display_lyric": "Way 87: pretend that he's a piano",
+    "full_line": "Way eighty-seven: pretend that he's a piano",
+    "start_seconds": 1659.52,
+    "action_start_seconds": 1667.2,
+    "action_end_seconds": 1673.02,
+    "end_seconds": 1674.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1667.2,
+        "end": 1667.83
+      },
+      {
+        "word": "87:",
+        "start": 1667.83,
+        "end": 1668.6
+      },
+      {
+        "word": "pretend",
+        "start": 1668.6,
+        "end": 1670.01
+      },
+      {
+        "word": "that",
+        "start": 1670.01,
+        "end": 1670.81
+      },
+      {
+        "word": "he's",
+        "start": 1670.81,
+        "end": 1671.61
+      },
+      {
+        "word": "a",
+        "start": 1671.61,
+        "end": 1672.02
+      },
+      {
+        "word": "piano",
+        "start": 1672.02,
+        "end": 1673.02
+      }
+    ]
+  },
+  {
+    "way_number": 88,
+    "verse_index": 22,
+    "way_word": "eighty-eight",
+    "action": "don't interrupt them while they're eating",
+    "display_lyric": "Way 88: don't interrupt them while they're eating",
+    "full_line": "Way eighty-eight: don't interrupt them while they're eating",
+    "start_seconds": 1674.88,
+    "action_start_seconds": 1682.56,
+    "action_end_seconds": 1688.38,
+    "end_seconds": 1704.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1682.56,
+        "end": 1683.19
+      },
+      {
+        "word": "88:",
+        "start": 1683.19,
+        "end": 1683.96
+      },
+      {
+        "word": "don't",
+        "start": 1683.96,
+        "end": 1684.57
+      },
+      {
+        "word": "interrupt",
+        "start": 1684.57,
+        "end": 1685.68
+      },
+      {
+        "word": "them",
+        "start": 1685.68,
+        "end": 1686.17
+      },
+      {
+        "word": "while",
+        "start": 1686.17,
+        "end": 1686.78
+      },
+      {
+        "word": "they're",
+        "start": 1686.78,
+        "end": 1687.64
+      },
+      {
+        "word": "eating",
+        "start": 1687.64,
+        "end": 1688.38
+      }
+    ]
+  },
+  {
+    "way_number": 89,
+    "verse_index": 23,
+    "way_word": "eighty-nine",
+    "action": "when they're scared, go and comfort them",
+    "display_lyric": "Way 89: when they're scared, go and comfort them",
+    "full_line": "Way eighty-nine: when they're scared, go and comfort them",
+    "start_seconds": 1704.8,
+    "action_start_seconds": 1712.48,
+    "action_end_seconds": 1718.3,
+    "end_seconds": 1720.16,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1712.48,
+        "end": 1713.11
+      },
+      {
+        "word": "89:",
+        "start": 1713.11,
+        "end": 1713.88
+      },
+      {
+        "word": "when",
+        "start": 1713.88,
+        "end": 1714.4
+      },
+      {
+        "word": "they're",
+        "start": 1714.4,
+        "end": 1715.31
+      },
+      {
+        "word": "scared,",
+        "start": 1715.31,
+        "end": 1716.22
+      },
+      {
+        "word": "go",
+        "start": 1716.22,
+        "end": 1716.48
+      },
+      {
+        "word": "and",
+        "start": 1716.48,
+        "end": 1716.87
+      },
+      {
+        "word": "comfort",
+        "start": 1716.87,
+        "end": 1717.78
+      },
+      {
+        "word": "them",
+        "start": 1717.78,
+        "end": 1718.3
+      }
+    ]
+  },
+  {
+    "way_number": 90,
+    "verse_index": 23,
+    "way_word": "ninety",
+    "action": "let him have a lick",
+    "display_lyric": "Way 90: let him have a lick",
+    "full_line": "Way ninety: let him have a lick",
+    "start_seconds": 1720.16,
+    "action_start_seconds": 1727.84,
+    "action_end_seconds": 1733.66,
+    "end_seconds": 1735.52,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1727.84,
+        "end": 1728.47
+      },
+      {
+        "word": "90:",
+        "start": 1728.47,
+        "end": 1729.24
+      },
+      {
+        "word": "let",
+        "start": 1729.24,
+        "end": 1730.07
+      },
+      {
+        "word": "him",
+        "start": 1730.07,
+        "end": 1730.9
+      },
+      {
+        "word": "have",
+        "start": 1730.9,
+        "end": 1732.0
+      },
+      {
+        "word": "a",
+        "start": 1732.0,
+        "end": 1732.56
+      },
+      {
+        "word": "lick",
+        "start": 1732.56,
+        "end": 1733.66
+      }
+    ]
+  },
+  {
+    "way_number": 91,
+    "verse_index": 23,
+    "way_word": "ninety-one",
+    "action": "if their breath stinks, give them Greenies",
+    "display_lyric": "Way 91: if their breath stinks, give them Greenies",
+    "full_line": "Way ninety-one: if their breath stinks, give them Greenies",
+    "start_seconds": 1735.52,
+    "action_start_seconds": 1743.2,
+    "action_end_seconds": 1749.02,
+    "end_seconds": 1750.88,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1743.2,
+        "end": 1743.83
+      },
+      {
+        "word": "91:",
+        "start": 1743.83,
+        "end": 1744.6
+      },
+      {
+        "word": "if",
+        "start": 1744.6,
+        "end": 1744.85
+      },
+      {
+        "word": "their",
+        "start": 1744.85,
+        "end": 1745.46
+      },
+      {
+        "word": "breath",
+        "start": 1745.46,
+        "end": 1746.2
+      },
+      {
+        "word": "stinks,",
+        "start": 1746.2,
+        "end": 1747.06
+      },
+      {
+        "word": "give",
+        "start": 1747.06,
+        "end": 1747.55
+      },
+      {
+        "word": "them",
+        "start": 1747.55,
+        "end": 1748.04
+      },
+      {
+        "word": "Greenies",
+        "start": 1748.04,
+        "end": 1749.02
+      }
+    ]
+  },
+  {
+    "way_number": 92,
+    "verse_index": 23,
+    "way_word": "ninety-two",
+    "action": "give him a ball with a bell in it",
+    "display_lyric": "Way 92: give him a ball with a bell in it",
+    "full_line": "Way ninety-two: give him a ball with a bell in it",
+    "start_seconds": 1750.88,
+    "action_start_seconds": 1758.56,
+    "action_end_seconds": 1764.38,
+    "end_seconds": 1782.72,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1758.56,
+        "end": 1759.19
+      },
+      {
+        "word": "92:",
+        "start": 1759.19,
+        "end": 1759.96
+      },
+      {
+        "word": "give",
+        "start": 1759.96,
+        "end": 1760.61
+      },
+      {
+        "word": "him",
+        "start": 1760.61,
+        "end": 1761.11
+      },
+      {
+        "word": "a",
+        "start": 1761.11,
+        "end": 1761.43
+      },
+      {
+        "word": "ball",
+        "start": 1761.43,
+        "end": 1762.09
+      },
+      {
+        "word": "with",
+        "start": 1762.09,
+        "end": 1762.74
+      },
+      {
+        "word": "a",
+        "start": 1762.74,
+        "end": 1763.07
+      },
+      {
+        "word": "bell",
+        "start": 1763.07,
+        "end": 1763.73
+      },
+      {
+        "word": "in",
+        "start": 1763.73,
+        "end": 1764.05
+      },
+      {
+        "word": "it",
+        "start": 1764.05,
+        "end": 1764.38
+      }
+    ]
+  },
+  {
+    "way_number": 93,
+    "verse_index": 24,
+    "way_word": "ninety-three",
+    "action": "if it's hot, put ice in their bowl",
+    "display_lyric": "Way 93: if it's hot, put ice in their bowl",
+    "full_line": "Way ninety-three: if it's hot, put ice in their bowl",
+    "start_seconds": 1782.72,
+    "action_start_seconds": 1790.4,
+    "action_end_seconds": 1796.22,
+    "end_seconds": 1798.08,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1790.4,
+        "end": 1791.03
+      },
+      {
+        "word": "93:",
+        "start": 1791.03,
+        "end": 1791.8
+      },
+      {
+        "word": "if",
+        "start": 1791.8,
+        "end": 1792.13
+      },
+      {
+        "word": "it's",
+        "start": 1792.13,
+        "end": 1792.78
+      },
+      {
+        "word": "hot,",
+        "start": 1792.78,
+        "end": 1793.44
+      },
+      {
+        "word": "put",
+        "start": 1793.44,
+        "end": 1793.93
+      },
+      {
+        "word": "ice",
+        "start": 1793.93,
+        "end": 1794.42
+      },
+      {
+        "word": "in",
+        "start": 1794.42,
+        "end": 1794.75
+      },
+      {
+        "word": "their",
+        "start": 1794.75,
+        "end": 1795.57
+      },
+      {
+        "word": "bowl",
+        "start": 1795.57,
+        "end": 1796.22
+      }
+    ]
+  },
+  {
+    "way_number": 94,
+    "verse_index": 24,
+    "way_word": "ninety-four",
+    "action": "let him drink out of the sink",
+    "display_lyric": "Way 94: let him drink out of the sink",
+    "full_line": "Way ninety-four: let him drink out of the sink",
+    "start_seconds": 1798.08,
+    "action_start_seconds": 1805.76,
+    "action_end_seconds": 1811.58,
+    "end_seconds": 1813.44,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1805.76,
+        "end": 1806.39
+      },
+      {
+        "word": "94:",
+        "start": 1806.39,
+        "end": 1807.16
+      },
+      {
+        "word": "let",
+        "start": 1807.16,
+        "end": 1807.74
+      },
+      {
+        "word": "him",
+        "start": 1807.74,
+        "end": 1808.31
+      },
+      {
+        "word": "drink",
+        "start": 1808.31,
+        "end": 1809.27
+      },
+      {
+        "word": "out",
+        "start": 1809.27,
+        "end": 1809.85
+      },
+      {
+        "word": "of",
+        "start": 1809.85,
+        "end": 1810.23
+      },
+      {
+        "word": "the",
+        "start": 1810.23,
+        "end": 1810.81
+      },
+      {
+        "word": "sink",
+        "start": 1810.81,
+        "end": 1811.58
+      }
+    ]
+  },
+  {
+    "way_number": 95,
+    "verse_index": 24,
+    "way_word": "ninety-five",
+    "action": "don't vacuum if it scares him",
+    "display_lyric": "Way 95: don't vacuum if it scares him",
+    "full_line": "Way ninety-five: don't vacuum if it scares him",
+    "start_seconds": 1813.44,
+    "action_start_seconds": 1821.12,
+    "action_end_seconds": 1826.94,
+    "end_seconds": 1828.8,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1821.12,
+        "end": 1821.75
+      },
+      {
+        "word": "95:",
+        "start": 1821.75,
+        "end": 1822.52
+      },
+      {
+        "word": "don't",
+        "start": 1822.52,
+        "end": 1823.44
+      },
+      {
+        "word": "vacuum",
+        "start": 1823.44,
+        "end": 1824.55
+      },
+      {
+        "word": "if",
+        "start": 1824.55,
+        "end": 1824.91
+      },
+      {
+        "word": "it",
+        "start": 1824.91,
+        "end": 1825.28
+      },
+      {
+        "word": "scares",
+        "start": 1825.28,
+        "end": 1826.39
+      },
+      {
+        "word": "him",
+        "start": 1826.39,
+        "end": 1826.94
+      }
+    ]
+  },
+  {
+    "way_number": 96,
+    "verse_index": 24,
+    "way_word": "ninety-six",
+    "action": "draw a picture of him",
+    "display_lyric": "Way 96: draw a picture of him",
+    "full_line": "Way ninety-six: draw a picture of him",
+    "start_seconds": 1828.8,
+    "action_start_seconds": 1836.48,
+    "action_end_seconds": 1842.3,
+    "end_seconds": 1862.56,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1836.48,
+        "end": 1837.11
+      },
+      {
+        "word": "96:",
+        "start": 1837.11,
+        "end": 1837.88
+      },
+      {
+        "word": "draw",
+        "start": 1837.88,
+        "end": 1838.86
+      },
+      {
+        "word": "a",
+        "start": 1838.86,
+        "end": 1839.35
+      },
+      {
+        "word": "picture",
+        "start": 1839.35,
+        "end": 1841.07
+      },
+      {
+        "word": "of",
+        "start": 1841.07,
+        "end": 1841.56
+      },
+      {
+        "word": "him",
+        "start": 1841.56,
+        "end": 1842.3
+      }
+    ]
+  },
+  {
+    "way_number": 97,
+    "verse_index": 25,
+    "way_word": "ninety-seven",
+    "action": "if you drop some food, it's theirs now",
+    "display_lyric": "Way 97: if you drop some food, it's theirs now",
+    "full_line": "Way ninety-seven: if you drop some food, it's theirs now",
+    "start_seconds": 1862.56,
+    "action_start_seconds": 1870.24,
+    "action_end_seconds": 1876.06,
+    "end_seconds": 1877.92,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1870.24,
+        "end": 1870.87
+      },
+      {
+        "word": "97:",
+        "start": 1870.87,
+        "end": 1871.64
+      },
+      {
+        "word": "if",
+        "start": 1871.64,
+        "end": 1871.93
+      },
+      {
+        "word": "you",
+        "start": 1871.93,
+        "end": 1872.35
+      },
+      {
+        "word": "drop",
+        "start": 1872.35,
+        "end": 1872.92
+      },
+      {
+        "word": "some",
+        "start": 1872.92,
+        "end": 1873.49
+      },
+      {
+        "word": "food,",
+        "start": 1873.49,
+        "end": 1874.21
+      },
+      {
+        "word": "it's",
+        "start": 1874.21,
+        "end": 1874.78
+      },
+      {
+        "word": "theirs",
+        "start": 1874.78,
+        "end": 1875.63
+      },
+      {
+        "word": "now",
+        "start": 1875.63,
+        "end": 1876.06
+      }
+    ]
+  },
+  {
+    "way_number": 98,
+    "verse_index": 25,
+    "way_word": "ninety-eight",
+    "action": "read him a book",
+    "display_lyric": "Way 98: read him a book",
+    "full_line": "Way ninety-eight: read him a book",
+    "start_seconds": 1877.92,
+    "action_start_seconds": 1885.6,
+    "action_end_seconds": 1891.42,
+    "end_seconds": 1893.28,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1885.6,
+        "end": 1886.23
+      },
+      {
+        "word": "98:",
+        "start": 1886.23,
+        "end": 1887.0
+      },
+      {
+        "word": "read",
+        "start": 1887.0,
+        "end": 1888.36
+      },
+      {
+        "word": "him",
+        "start": 1888.36,
+        "end": 1889.38
+      },
+      {
+        "word": "a",
+        "start": 1889.38,
+        "end": 1890.06
+      },
+      {
+        "word": "book",
+        "start": 1890.06,
+        "end": 1891.42
+      }
+    ]
+  },
+  {
+    "way_number": 99,
+    "verse_index": 25,
+    "way_word": "ninety-nine",
+    "action": "feed him again",
+    "display_lyric": "Way 99: feed him again",
+    "full_line": "Way ninety-nine: feed him again",
+    "start_seconds": 1893.28,
+    "action_start_seconds": 1900.96,
+    "action_end_seconds": 1906.78,
+    "end_seconds": 1908.64,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1900.96,
+        "end": 1901.59
+      },
+      {
+        "word": "99:",
+        "start": 1901.59,
+        "end": 1902.36
+      },
+      {
+        "word": "feed",
+        "start": 1902.36,
+        "end": 1903.83
+      },
+      {
+        "word": "him",
+        "start": 1903.83,
+        "end": 1904.94
+      },
+      {
+        "word": "again",
+        "start": 1904.94,
+        "end": 1906.78
+      }
+    ]
+  },
+  {
+    "way_number": 100,
+    "verse_index": 25,
+    "way_word": "one hundred",
+    "action": "just love them, every day",
+    "display_lyric": "Way 100: just love them, every day",
+    "full_line": "Way one hundred: just love them, every day",
+    "start_seconds": 1908.64,
+    "action_start_seconds": 1916.32,
+    "action_end_seconds": 1922.14,
+    "end_seconds": 2120.75,
+    "words": [
+      {
+        "word": "Way",
+        "start": 1916.32,
+        "end": 1916.95
+      },
+      {
+        "word": "100:",
+        "start": 1916.95,
+        "end": 1917.72
+      },
+      {
+        "word": "just",
+        "start": 1917.72,
+        "end": 1918.56
+      },
+      {
+        "word": "love",
+        "start": 1918.56,
+        "end": 1919.4
+      },
+      {
+        "word": "them,",
+        "start": 1919.4,
+        "end": 1920.46
+      },
+      {
+        "word": "every",
+        "start": 1920.46,
+        "end": 1921.51
+      },
+      {
+        "word": "day",
+        "start": 1921.51,
+        "end": 1922.14
+      }
+    ]
+  }
+]

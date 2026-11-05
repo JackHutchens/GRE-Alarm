@@ -1,0 +1,13 @@
+# Exclude data acquisition scraper and raw cache from final distributions & git
+data_acquisition/
+!data/
+!data/gre_questions.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+dist/
+build/
+.env

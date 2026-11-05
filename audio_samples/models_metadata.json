@@ -1,0 +1,72 @@
+[
+  {
+    "filename": "model1_amygdala_roughness.wav",
+    "title": "Model 1: Amygdala Roughness Harvester",
+    "description": "Human scream roughness modulation (30-130 Hz) targeting subcortical amygdalar threat circuits.",
+    "seed": 42069,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model1_amygdala_roughness.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model1_amygdala_roughness.wav"
+  },
+  {
+    "filename": "model2_stick_slip_friction.wav",
+    "title": "Model 2: Frictional Stick-Slip Screech",
+    "description": "Chalkboard / metal-on-glass stick-slip modeling with sharp spectral kurtosis in 2.8-4.5 kHz.",
+    "seed": 1337,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model2_stick_slip_friction.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model2_stick_slip_friction.wav"
+  },
+  {
+    "filename": "model3_plomp_levelt_dissonance.wav",
+    "title": "Model 3: Plomp-Levelt Dissonance Swarm",
+    "description": "Basilar membrane critical band clash (0.25*CBW) with tritone diabolus dyads and Shepard vertigo.",
+    "seed": 80085,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model3_plomp_levelt_dissonance.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model3_plomp_levelt_dissonance.wav"
+  },
+  {
+    "filename": "model4_stochastic_mmn_disruption.wav",
+    "title": "Model 4: Stochastic MMN Disruption Engine",
+    "description": "Predictive coding destroyer: Poisson pauses, Levy pitch jumps across 5 octaves, zero habituation.",
+    "seed": 99999,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model4_stochastic_mmn_disruption.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model4_stochastic_mmn_disruption.wav"
+  },
+  {
+    "filename": "model5_hyperbolic_looming.wav",
+    "title": "Model 5: Hyperbolic Auditory Looming",
+    "description": "Exponential looming crash acceleration with 8.5 Hz infrasonic vestibular intermodulation.",
+    "seed": 77711,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model5_hyperbolic_looming.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model5_hyperbolic_looming.wav"
+  },
+  {
+    "filename": "model6_apex_felid_roar.wav",
+    "title": "Model 6: Apex Felid Non-Linear Roar",
+    "description": "Non-linear laryngeal cavitation, biphonic subharmonics (f0/2), and chest resonance panic.",
+    "seed": 66601,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model6_apex_felid_roar.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model6_apex_felid_roar.wav"
+  },
+  {
+    "filename": "model7_serpentine_stridulation.wav",
+    "title": "Model 7: Serpentine Venom-Stridulation",
+    "description": "Phylogenetically prepared threat: 35-50 Hz scale rattle, glottal hiss, and sudden ambush strikes.",
+    "seed": 88802,
+    "duration_seconds": 30.0,
+    "size_mb": 2.52,
+    "local_path": "C:\\Users\\jacka\\OneDrive\\Desktop\\Vibecoding\\GRE Alarm\\audio_samples\\model7_serpentine_stridulation.wav",
+    "artifact_path": "C:\\Users\\jacka\\.gemini\\antigravity\\brain\\ae759fcb-adde-4ada-a1a8-c7f9b73b75ae\\model7_serpentine_stridulation.wav"
+  }
+]

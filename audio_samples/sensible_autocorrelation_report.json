@@ -1,0 +1,80 @@
+{
+  "Model 4: Stochastic MMN Disruption Engine": {
+    "m_acf_inter_event_correlation": 0.059,
+    "mean_inter_event_correlation": 0.0101,
+    "m_acf_overall_tau_0_5s": 0.059,
+    "correlation_half_life_seconds": 0.07,
+    "max_segment_cross_correlation": 0.0502,
+    "mean_segment_cross_correlation": 0.0191,
+    "spectral_entropy": 0.9422,
+    "spectral_kurtosis": 4.9,
+    "is_mathematically_non_repeating": true,
+    "model_name": "Model 4: Stochastic MMN Disruption Engine",
+    "generation_time_seconds": 1.33
+  },
+  "Model 6: Apex Felid Non-Linear Assault": {
+    "m_acf_inter_event_correlation": 0.127,
+    "mean_inter_event_correlation": 0.0294,
+    "m_acf_overall_tau_0_5s": 0.4848,
+    "correlation_half_life_seconds": 0.668,
+    "max_segment_cross_correlation": 0.397,
+    "mean_segment_cross_correlation": 0.1853,
+    "spectral_entropy": 0.6188,
+    "spectral_kurtosis": 2.26,
+    "is_mathematically_non_repeating": false,
+    "model_name": "Model 6: Apex Felid Non-Linear Assault",
+    "generation_time_seconds": 12.39
+  },
+  "Model 7: Serpentine Venom Assault": {
+    "m_acf_inter_event_correlation": 0.137,
+    "mean_inter_event_correlation": 0.036,
+    "m_acf_overall_tau_0_5s": 0.4414,
+    "correlation_half_life_seconds": 0.594,
+    "max_segment_cross_correlation": 0.0204,
+    "mean_segment_cross_correlation": 0.0043,
+    "spectral_entropy": 0.9217,
+    "spectral_kurtosis": 2.5,
+    "is_mathematically_non_repeating": true,
+    "model_name": "Model 7: Serpentine Venom Assault",
+    "generation_time_seconds": 8.26
+  },
+  "Model 1: Amygdala Roughness Harvester": {
+    "m_acf_inter_event_correlation": 0.7303,
+    "mean_inter_event_correlation": 0.1631,
+    "m_acf_overall_tau_0_5s": 0.7303,
+    "correlation_half_life_seconds": 0.08,
+    "max_segment_cross_correlation": 0.1942,
+    "mean_segment_cross_correlation": 0.0375,
+    "spectral_entropy": 0.7245,
+    "spectral_kurtosis": 2.38,
+    "is_mathematically_non_repeating": false,
+    "model_name": "Model 1: Amygdala Roughness Harvester",
+    "generation_time_seconds": 16.0
+  },
+  "Model 2: Frictional Stick-Slip Screech": {
+    "m_acf_inter_event_correlation": 0.1716,
+    "mean_inter_event_correlation": 0.0317,
+    "m_acf_overall_tau_0_5s": 0.4628,
+    "correlation_half_life_seconds": 0.614,
+    "max_segment_cross_correlation": 0.0115,
+    "mean_segment_cross_correlation": 0.0039,
+    "spectral_entropy": 0.7362,
+    "spectral_kurtosis": 2.83,
+    "is_mathematically_non_repeating": false,
+    "model_name": "Model 2: Frictional Stick-Slip Screech",
+    "generation_time_seconds": 4.86
+  },
+  "Model 5: Hyperbolic Auditory Looming": {
+    "m_acf_inter_event_correlation": 0.1173,
+    "mean_inter_event_correlation": 0.0209,
+    "m_acf_overall_tau_0_5s": 0.1789,
+    "correlation_half_life_seconds": 0.16,
+    "max_segment_cross_correlation": 0.1919,
+    "mean_segment_cross_correlation": 0.0251,
+    "spectral_entropy": 0.7568,
+    "spectral_kurtosis": 3.98,
+    "is_mathematically_non_repeating": true,
+    "model_name": "Model 5: Hyperbolic Auditory Looming",
+    "generation_time_seconds": 8.72
+  }
+}
